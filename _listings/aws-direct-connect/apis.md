@@ -36,7 +36,7 @@ apis:
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/tags/master/_listings/aws-direct-connect/action-tagresource-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/tags/master/_listings/aws-direct-connect/action-untagresource-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/AWS-Direct-Connect
