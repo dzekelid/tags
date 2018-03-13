@@ -48,7 +48,7 @@ apis:
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/tags/master/_listings/aws-cloudhsm/action-addtagstoresource-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/tags/master/_listings/aws-cloudhsm/action-listtagsforresource-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/cloudhsm/latest/dg/
