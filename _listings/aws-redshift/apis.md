@@ -30,7 +30,7 @@ apis:
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/tags/master/_listings/aws-redshift/action-createtags-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/tags/master/_listings/aws-redshift/action-deletetags-get.md
 x-common:
 - type: x-best-practices
   url: https://aws.amazon.com/redshift/developer-resources/#best-practices
