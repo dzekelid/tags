@@ -32,7 +32,7 @@ apis:
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/tags/master/_listings/aws-elastic-mapreduce/action-addtags-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/tags/master/_listings/aws-elastic-mapreduce/action-removetags-get.md
 x-common:
 - type: x-article
   url: http://aws.amazon.com/articles/Elastic-MapReduce
