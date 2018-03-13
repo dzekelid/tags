@@ -34,7 +34,7 @@ apis:
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/tags/master/_listings/aws-database-migration-service/action-listtagsforresource-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/tags/master/_listings/aws-database-migration-service/action-removetagsfromresource-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/dms/latest/APIReference/Welcome.html
