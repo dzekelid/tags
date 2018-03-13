@@ -33,7 +33,7 @@ apis:
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/tags/master/_listings/akamai/imaging-v0-imagecollections-tags-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/tags/master/_listings/akamai/imaging-v0-imagecollections-tags-id-put.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
