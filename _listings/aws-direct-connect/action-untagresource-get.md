@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UntagResource&k=1:
+  /?Action=UntagResource:
     get:
       summary: ' Untag Resource '
       description: Removes one or more tags from the specified Direct Connect resource
