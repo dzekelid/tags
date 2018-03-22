@@ -19,9 +19,9 @@ tags:
 - Encryption
 - Certificates
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/tags/master/_listings/aws-certificate-manager/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-certificate-manager/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AWS Certificate Manager API
@@ -34,7 +34,7 @@ apis:
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/tags/master/_listings/aws-certificate-manager/action-removetagsfromcertificate-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-certificate-manager/action-addtagstocertificate-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/acm/index.html
