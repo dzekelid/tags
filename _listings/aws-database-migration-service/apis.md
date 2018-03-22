@@ -20,9 +20,9 @@ tags:
 - Migration
 - Database
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/tags/master/_listings/aws-database-migration-service/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-database-migration-service/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AWS Database Migration Service API
@@ -34,7 +34,7 @@ apis:
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/tags/master/_listings/aws-database-migration-service/action-removetagsfromresource-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-database-migration-service/action-addtagstoresource-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/dms/latest/APIReference/Welcome.html
