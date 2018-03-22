@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AddTagsToResource&k=1:
+  /?Action=AddTagsToResource:
     get:
       summary: ' Add Tags To Resource '
       description: Adds one or more tags to the specified resource
