@@ -19,9 +19,9 @@ tags:
 - Discovery
 - Authentication
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/tags/master/_listings/aws-directory-service/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-directory-service/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AWS Directory Service API
@@ -34,7 +34,7 @@ apis:
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/tags/master/_listings/aws-directory-service/action-removetagsfromresource-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-directory-service/action-addtagstoresource-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/ds/index.html
