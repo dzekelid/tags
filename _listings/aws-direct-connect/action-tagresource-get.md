@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=TagResource&k=1:
+  /?Action=TagResource:
     get:
       summary: ' Tag Resource '
       description: Adds the specified tags to the specified Direct Connect resource
