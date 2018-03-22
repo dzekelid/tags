@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListTagsForCertificate&k=1:
+  /?Action=ListTagsForCertificate:
     get:
       summary: List Tags For Certificate
       description: Lists the tags that have been applied to the ACM Certificate
