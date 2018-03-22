@@ -33,9 +33,9 @@ tags:
 - Encryption
 - Contracts
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/tags/master/_listings/aws-cloudhsm/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-cloudhsm/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AWS CloudHSM API
@@ -48,7 +48,7 @@ apis:
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/tags/master/_listings/aws-cloudhsm/action-removetagsfromresource-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-cloudhsm/action-addtagstoresource-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/cloudhsm/latest/dg/
