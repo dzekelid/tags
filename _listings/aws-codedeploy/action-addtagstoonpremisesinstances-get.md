@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AddTagsToOnPremisesInstances&k=1:
+  /?Action=AddTagsToOnPremisesInstances:
     get:
       summary: ' Add Tags To On Premises Instances '
       description: Adds tags to on-premises instances
