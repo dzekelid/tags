@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RemoveTagsFromResource&k=1:
+  /?Action=RemoveTagsFromResource:
     get:
       summary: ' Remove Tags From Resource '
       description: "Removes the tags identified by the TagKeys \n            list
