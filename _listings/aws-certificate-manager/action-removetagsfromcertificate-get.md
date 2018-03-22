@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RemoveTagsFromCertificate&k=1:
+  /?Action=RemoveTagsFromCertificate:
     get:
       summary: Remove Tags From Certificate
       description: Remove one or more tags from an ACM Certificate
