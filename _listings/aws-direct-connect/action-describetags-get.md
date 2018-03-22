@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeTags&k=1:
+  /?Action=DescribeTags:
     get:
       summary: ' Describe Tags '
       description: Describes the tags associated with the specified Direct Connect
