@@ -31,7 +31,7 @@ apis:
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-workspaces/action-deletetags-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-workspaces/action-describetags-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/workspaces/latest/api/api-reference.html
