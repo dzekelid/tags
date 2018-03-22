@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AddTagsToCertificate&k=1:
+  /?Action=AddTagsToCertificate:
     get:
       summary: Add Tags To Certificate
       description: Adds one or more tags to an ACM Certificate
