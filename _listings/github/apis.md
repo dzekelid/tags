@@ -40,7 +40,7 @@ apis:
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/github/repos-owner-repo-git-tags-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/github/repos-owner-repo-git-tags-shacode-get.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
