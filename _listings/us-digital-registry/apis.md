@@ -26,7 +26,7 @@ apis:
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/us-digital-registry/tags-types-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/us-digital-registry/tags-json-get.md
 x-common:
 - type: x-website
   url: https://usdigitalregistry.digitalgov.gov
