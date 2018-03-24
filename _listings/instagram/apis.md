@@ -24,8 +24,8 @@ tags:
 - Images
 - Change Log Example
 - Change Log
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/instagram/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -40,7 +40,7 @@ apis:
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/instagram/tags-search-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/instagram/tags-tag-name-get.md
 x-common:
 - type: x-application-management
   url: https://instagram.com/accounts/manage_access/
