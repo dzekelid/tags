@@ -40,7 +40,7 @@ apis:
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/instagram/tags-tag-name-media-recent-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/instagram/tags-search-get.md
 x-common:
 - type: x-application-management
   url: https://instagram.com/accounts/manage_access/
