@@ -18,8 +18,8 @@ tags:
 - Stack Network
 - Data
 - Amazon Web Services
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-data-pipeline/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -33,7 +33,7 @@ apis:
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-data-pipeline/action-removetags-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-data-pipeline/action-addtags-get.md
 x-common:
 - type: x-blog
   url: http://blogs.aws.amazon.com/bigdata
