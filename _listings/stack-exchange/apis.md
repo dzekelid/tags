@@ -57,7 +57,61 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-tag-top-askers-period-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-tag-top-askers-period-get-postman.md
+- name: Stack Exchange Get User Tags
+  description: "Returns the tags the users identified in {ids} have been active in.\n
+    \nThis route corresponds roughly to user's stats tab, but does not include tag
+    scores. A subset of tag scores are available (on a single user basis) in /users/{id}/top-answer-tags
+    and /users/{id}/top-question-tags.\n \n{ids} can contain up to 100 semicolon delimited
+    ids, to find ids programatically look for user_id on user or shallow_user objects.\n
+    \nThe sorts accepted by this method operate on the follow fields of the tag object:\n
+    - popular - count\n - activity - the creation_date of the last question asked
+    with the tag\n - name - name\n  popular is the default sort.\n \n It is possible
+    to create moderately complex queries using sort, min, max, fromdate, and todate.\n
+    \nThis method returns a list of tags."
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
+  humanURL: https://stackexchange.com/
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Tags
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/users-ids-tags-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/users-ids-tags-get-postman.md
 x-common:
+- type: x-authentication
+  url: https://api.stackexchange.com/docs/authentication
+- type: x-base
+  url: https://api.stackexchange.com/
+- type: x-blog
+  url: http://stackexchange.com/blogs
+- type: x-blog-rss
+  url: http://blog.stackoverflow.com/feed/
+- type: x-crunchbase
+  url: http://www.crunchbase.com/company/stack-exchange
+- type: x-developer
+  url: http://api.stackexchange.com/
+- type: x-email
+  url: team+api@stackexchange.com
+- type: x-error-codes
+  url: https://api.stackexchange.com/docs/error-handling
+- type: x-github
+  url: https://github.com/StackExchange
+- type: x-javascript-sdk
+  url: https://api.stackexchange.com/docs/js-lib
+- type: x-privacy
+  url: https://stackexchange.com/legal/privacy-policy
+- type: x-rate-limits
+  url: https://api.stackexchange.com/docs/throttle
+- type: x-selfservice-registration
+  url: https://stackapps.com/users/login?returnurl=/apps/oauth/register
+- type: x-support
+  url: https://stackexchange.com/about/contact
+- type: x-terms-of-service
+  url: http://stackexchange.com/legal/api-terms-of-use
+- type: x-twitter
+  url: https://twitter.com/StackExchange
+- type: x-website
+  url: https://stackexchange.com/
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
 - type: x-base
