@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Database Migration Service API
+  title: AWS Database Migration Service API Remove Tags From Resource
   version: 1.0.0
+  description: Removes metadata tags from a DMS resource.
 schemes:
 - http
 produces:
