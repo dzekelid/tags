@@ -26,24 +26,24 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stack Exchange Get Tags
-  description: "Returns the tags found on a site.\n \nThe inname parameter lets a
-    consumer filter down to tags that contain a certain substring. For example, inname=own
-    would return both \"download\" and \"owner\" amongst others.\n \nThis method returns
-    a list of tags.\n \nThe sorts accepted by this method operate on the follow fields
-    of the tag object:\n - popular - count\n - activity - the creation_date of the
-    last question asked with the tag\n - name - name\n  popular is the default sort.\n
-    \n It is possible to create moderately complex queries using sort, min, max, fromdate,
-    and todate."
+- name: Stack Exchange Get Tags Moderator Only
+  description: "Returns the tags found on a site that only moderators can use.\n \nThe
+    inname parameter lets a consumer filter down to tags that contain a certain substring.
+    For example, inname=own would return both \"download\" and \"owner\" amongst others.\n
+    \nThis method returns a list of tags.\n \nThe sorts accepted by this method operate
+    on the follow fields of the tag object:\n - popular - count\n - activity - the
+    creation_date of the last question asked with the tag\n - name - name\n  popular
+    is the default sort.\n \n It is possible to create moderately complex queries
+    using sort, min, max, fromdate, and todate."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
   humanURL: https://stackexchange.com/
   baseURL: https://api.stackexchange.com//2.2
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-moderator-only-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-moderator-only-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
