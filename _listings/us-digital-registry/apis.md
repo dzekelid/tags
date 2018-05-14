@@ -27,15 +27,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/us-digital-registry/tags-id-json-get.md
-- name: U.S. Digital Registry Tag API Tag Types
-  description: This returns a tag based on an ID.
+- name: U.S. Digital Registry Tag API Tags
+  description: This lists all tags.  It accepts parameters to perform basic search.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/digital-gov-logo.jpeg
   humanURL: https://usdigitalregistry.digitalgov.gov
   baseURL: https://usdigitalregistry.digitalgov.gov//api/v1/
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/us-digital-registry/tags-types-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/us-digital-registry/tags-json-get.md
 x-common:
 - type: x-website
   url: https://usdigitalregistry.digitalgov.gov
