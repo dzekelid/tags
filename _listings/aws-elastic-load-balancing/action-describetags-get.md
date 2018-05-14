@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Load Balancing API
+  title: AWS Elastic Load Balancing API Describe Tags
   version: 1.0.0
+  description: Describes the tags for the specified resources.
 schemes:
 - http
 produces:
