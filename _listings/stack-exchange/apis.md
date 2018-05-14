@@ -57,8 +57,8 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-tag-top-askers-period-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-tag-top-askers-period-get-postman.md
-- name: Stack Exchange Get User Top Answers Tags
-  description: "Returns a single user's top tags by answer score.\n \nThis a subset
+- name: Stack Exchange Get User Top Question Tags
+  description: "Returns a single user's top tags by question score.\n \nThis a subset
     of the data returned on a user's tags tab.\n \n{id} can contain a single id, to
     find it programatically look for user_id on user or shallow_user objects.\n \nThis
     method returns a list of top_tag objects."
@@ -68,9 +68,9 @@ apis:
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/users-id-top-answer-tags-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/users-id-top-question-tags-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/users-id-top-answer-tags-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/users-id-top-question-tags-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
