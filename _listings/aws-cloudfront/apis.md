@@ -28,15 +28,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-cloudfront/action-listtagsforresource-get.md
-- name: AWS CloudFront API Create Distribution With Tags
-  description: Create a new distribution with tags.
+- name: AWS CloudFront API Create Streaming Distribution With Tags
+  description: Create a new streaming distribution with tags.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonCloudFront.png
   humanURL: https://aws.amazon.com/cloudfront/
   baseURL: http:://{host}//
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-cloudfront/action-createdistributionwithtags-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-cloudfront/action-createstreamingdistributionwithtags-get.md
 x-common:
 - type: x-analysis
   url: https://aws.amazon.com/cloudfront/reporting/
