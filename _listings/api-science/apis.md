@@ -35,6 +35,24 @@ x-common:
   url: https://twitter.com/APIScience
 - type: x-website
   url: http://www.apiscience.com/
+- type: x-base-url
+  url: http://api.apiscience.com
+- type: x-blog
+  url: https://www.apiscience.com/blog/
+- type: x-blog-rss
+  url: https://www.apiscience.com/blog/feed/
+- type: x-developer
+  url: https://www.apiscience.com/docs/api
+- type: x-pricing
+  url: https://www.apiscience.com/pricing
+- type: x-privacy
+  url: https://www.apiscience.com/privacy
+- type: x-terms-of-service
+  url: https://www.apiscience.com/terms
+- type: x-twitter
+  url: https://twitter.com/APIScience
+- type: x-website
+  url: http://www.apiscience.com/
 include: []
 maintainers:
 - FN: Kin Lane
