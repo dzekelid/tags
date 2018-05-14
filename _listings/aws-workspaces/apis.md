@@ -32,15 +32,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-workspaces/action-describetags-get.md
-- name: AWS WorkSpaces Service API Create Tags
-  description: Creates tags for a WorkSpace.
+- name: AWS WorkSpaces Service API Delete Tags
+  description: Deletes tags from a WorkSpace.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkSpaces.png
   humanURL: https://aws.amazon.com/workspaces/
   baseURL: http:://{host}//
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-workspaces/action-createtags-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-workspaces/action-deletetags-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/workspaces/latest/api/api-reference.html
