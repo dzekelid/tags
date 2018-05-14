@@ -32,7 +32,32 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-cloudtrail/action-removetags-get.md
+- name: AWS CloudTrail API Add Tags
+  description: Adds one or more tags to a trail, up to a limit of 50.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudTrail.png
+  humanURL: https://aws.amazon.com/cloudtrail/
+  baseURL: http:://{host}//
+  tags: Tags
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-cloudtrail/action-addtags-get.md
 x-common:
+- type: x-console
+  url: https://console.aws.amazon.com/cloudtrail/home
+- type: x-documentation
+  url: http://docs.aws.amazon.com/awscloudtrail/latest/APIReference/Welcome.html
+- type: x-faq
+  url: https://aws.amazon.com/cloudtrail/faqs/
+- type: x-forum
+  url: https://forums.aws.amazon.com/forum.jspa?forumID=168
+- type: x-getting-started
+  url: https://aws.amazon.com/cloudtrail/getting-started/
+- type: x-partners
+  url: https://aws.amazon.com/cloudtrail/partners/
+- type: x-pricing
+  url: https://aws.amazon.com/cloudtrail/pricing/
+- type: x-website
+  url: https://aws.amazon.com/cloudtrail/
 - type: x-console
   url: https://console.aws.amazon.com/cloudtrail/home
 - type: x-documentation
