@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Certificate Manager API
+  title: AWS Certificate Manager API Remove Tags From Certificate
   version: 1.0.0
+  description: Remove one or more tags from an ACM Certificate.
 schemes:
 - http
 produces:
