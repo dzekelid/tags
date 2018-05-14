@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Create Tags
   version: 1.0.0
+  description: Adds one or more tags to a specified resource.
 schemes:
 - http
 produces:
