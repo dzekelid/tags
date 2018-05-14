@@ -44,8 +44,8 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-required-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-required-get-postman.md
-- name: Stack Exchange Get Tags Top Answers
-  description: "Returns the top 30 answerers active in a single tag, of either all-time
+- name: Stack Exchange Get Tags Top Askers
+  description: "Returns the top 30 askers active in a single tag, of either all-time
     or the last 30 days.\n \nThis is a view onto the data presented on the tag info
     page on the sites.\n \nThis method returns a list of tag score objects."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
@@ -54,9 +54,9 @@ apis:
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-tag-top-answerers-period-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-tag-top-askers-period-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-tag-top-answerers-period-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-tag-top-askers-period-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
