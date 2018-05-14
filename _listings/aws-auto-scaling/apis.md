@@ -33,15 +33,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-auto-scaling/action-describetags-get.md
-- name: AWS Auto Scaling API Delete Tags
-  description: Deletes the specified tags.
+- name: AWS Auto Scaling API Describe Tags
+  description: Describes the specified tags.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png
   humanURL: https://aws.amazon.com/autoscaling/
   baseURL: http:://{host}//
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-auto-scaling/action-deletetags-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-auto-scaling/action-describetags-get.md
 x-common:
 - type: x-articles
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=100
