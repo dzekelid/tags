@@ -18,17 +18,7 @@ created: "2018-03-24"
 modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/pinboard/apis.yaml
 specificationVersion: "0.14"
-apis:
-- name: Pinboard Get Tags
-  description: Returns a full list of the user's tags along with the number of times
-    they were used.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/pinboard-icon.png
-  humanURL: http://www.pinboard.in
-  baseURL: https://api.pinboard.in//v1
-  tags: Tags
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/pinboard/tags-get-get.md
+apis: []
 x-common:
 - type: x-base
   url: https://api.pinboard.in
