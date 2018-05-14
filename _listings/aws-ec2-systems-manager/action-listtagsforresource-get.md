@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 Systems Manager API
+  title: Amazon EC2 Systems Manager API List Tags For Resource
   version: 1.0.0
+  description: Returns a list of the tags assigned to the specified resource.
 schemes:
 - http
 produces:
