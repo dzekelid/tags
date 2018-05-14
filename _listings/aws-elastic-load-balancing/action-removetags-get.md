@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Load Balancing API
+  title: AWS Elastic Load Balancing API Remove Tags
   version: 1.0.0
+  description: Removes the specified tags from the specified resource.
 schemes:
 - http
 produces:
