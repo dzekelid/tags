@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-data-pipeline/action-removetags-get.md
-- name: AWS Data Pipeline API Add Tags
-  description: Adds or modifies tags for the specified pipeline.
+- name: AWS Data Pipeline API Remove Tags
+  description: Removes existing tags from the specified pipeline.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datapipelinelogo.jpeg
   humanURL: https://aws.amazon.com/datapipeline/
   baseURL: http:://{host}//
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-data-pipeline/action-addtags-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-data-pipeline/action-removetags-get.md
 x-common:
 - type: x-blog
   url: http://blogs.aws.amazon.com/bigdata
