@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Delete Tags
   version: 1.0.0
+  description: Deletes a tag or tags from a resource.
 schemes:
 - http
 produces:
