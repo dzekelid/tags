@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS WorkSpaces Service API
+  title: AWS WorkSpaces Service API Describe Tags
   version: 1.0.0
+  description: Describes tags for a WorkSpace.
 schemes:
 - http
 produces:
