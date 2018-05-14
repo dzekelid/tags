@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS WorkSpaces Service API
+  title: AWS WorkSpaces Service API Delete Tags
   version: 1.0.0
+  description: Deletes tags from a WorkSpace.
 schemes:
 - http
 produces:
