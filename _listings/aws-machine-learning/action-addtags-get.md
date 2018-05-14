@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Machine Learning API
+  title: AWS Machine Learning API Add Tags
   version: 1.0.0
+  description: Adds one or more tags to an object, up to a limit of 10.
 schemes:
 - http
 produces:
