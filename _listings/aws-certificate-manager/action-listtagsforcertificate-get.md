@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Certificate Manager API
+  title: AWS Certificate Manager API List Tags For Certificate
   version: 1.0.0
+  description: Lists the tags that have been applied to the ACM Certificate.
 schemes:
 - http
 produces:
