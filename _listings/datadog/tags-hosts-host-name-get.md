@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: DataDog Merged API
+  title: DataDog API Get Tags Hosts Host Name
   version: 1.0.0
+  description: Return the list of tags that apply to a given host.
 basePath: api/v1/
 schemes:
 - http
