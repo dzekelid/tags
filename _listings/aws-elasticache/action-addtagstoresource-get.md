@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS ElastiCache API
+  title: Amazon ElastiCache API Add Tags To Resource
   version: 1.0.0
+  description: Adds up to 10 cost allocation tags to the named resource.
 schemes:
 - http
 produces:
