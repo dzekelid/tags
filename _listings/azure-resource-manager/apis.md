@@ -27,18 +27,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/azure-resource-manager/subscriptions-subscriptionid-tagnames-get.md
-- name: Azure Resource Manager API Deletes a tag from the subscription.
-  description: You must remove all values from a resource tag before you can delete
-    it.
+- name: Azure Resource Manager API Tags List
+  description: Gets the names and values of all resource tags that are defined in
+    a subscription.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-manager.png
   humanURL: https://docs.microsoft.com/en-us/rest/api/resources/
   baseURL: http:://management.azure.com//
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/azure-resource-manager/subscriptions-subscriptionid-tagnames-tagname-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/azure-resource-manager/subscriptions-subscriptionid-tagnames-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/azure-resource-manager/subscriptions-subscriptionid-tagnames-tagname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/azure-resource-manager/subscriptions-subscriptionid-tagnames-get-postman.md
 x-common:
 - type: x-website
   url: https://docs.microsoft.com/en-us/rest/api/resources/
