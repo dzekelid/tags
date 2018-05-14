@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Direct Connect API
+  title: AWS Direct Connect API Untag Resource
   version: 1.0.0
+  description: Removes one or more tags from the specified Direct Connect resource.
 schemes:
 - http
 produces:
