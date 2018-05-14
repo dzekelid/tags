@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudTrail API
+  title: AWS CloudTrail API Remove Tags
   version: 1.0.0
+  description: Removes the specified tags from a trail.
 schemes:
 - http
 produces:
