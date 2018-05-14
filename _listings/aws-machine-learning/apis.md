@@ -37,15 +37,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-machine-learning/action-deletetags-get.md
-- name: AWS Machine Learning API Add Tags
-  description: Adds one or more tags to an object, up to a limit of 10.
+- name: AWS Machine Learning API Delete Tags
+  description: Deletes the specified tags associated with an ML object.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: http:://{host}//
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-machine-learning/action-addtags-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-machine-learning/action-deletetags-get.md
 x-common:
 - type: x-command-line-interface
   url: http://aws.amazon.com/cli/
