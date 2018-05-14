@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS ElastiCache API
+  title: Amazon ElastiCache API Remove Tags From Resource
   version: 1.0.0
+  description: "Removes the tags identified by the TagKeys \n            list from
+    the named resource."
 schemes:
 - http
 produces:
