@@ -1,9 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: U.S. Digital Registry Tag API
-  description: Provides a access to the list of tags applied to federal government
-    agencies and their social media accounts.
+  title: U.S. Digital Registry Tag API Tags
+  description: This lists all tags.  It accepts parameters to perform basic search.
   version: 1.0.0
 host: usdigitalregistry.digitalgov.gov
 basePath: /api/v1/
@@ -29,7 +28,7 @@ paths:
       - in: query
         name: q
         description: String to compare to the short name of tags
-      - in: type
+      - in: query
         name: type
         description: Comma separated list of tag types
       responses:
