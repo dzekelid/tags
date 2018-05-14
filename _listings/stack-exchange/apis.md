@@ -44,23 +44,22 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-required-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-required-get-postman.md
-- name: Stack Exchange Get Tags Synonyms
-  description: "Returns all tag synonyms found a site.\n \nWhen searching for synonyms
-    of specific tags, it is better to use /tags/{tags}/synonyms over this method.\n
-    \nThe sorts accepted by this method operate on the follow fields of the tag_synonym
-    object:\n - creation - creation_date\n - applied - applied_count\n - activity
-    - last_applied_date\n  creation is the default sort.\n \n It is possible to create
-    moderately complex queries using sort, min, max, fromdate, and todate.\n \nThis
-    method returns a list of tag_synonyms."
+- name: Stack Exchange Get Tags FAQ
+  description: "Returns the frequently asked questions for the given set of tags in
+    {tags}.\n \nFor a question to be returned, it must have all the tags in {tags}
+    and be considered \"frequently asked\". The exact algorithm for determining whether
+    a question is considered a FAQ is subject to change at any time.\n \n{tags} can
+    contain up to 5 individual tags per request.\n \nThis method returns a list of
+    questions."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
   humanURL: https://stackexchange.com/
   baseURL: https://api.stackexchange.com//2.2
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-synonyms-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-tags-faq-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-synonyms-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-tags-faq-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
