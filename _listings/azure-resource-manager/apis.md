@@ -27,17 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/azure-resource-manager/subscriptions-subscriptionid-tagnames-get.md
-- name: Azure Resource Manager API Tags Delete Value
-  description: Deletes a tag value.
+- name: Azure Resource Manager API Tags Create Or Update Value
+  description: Creates a tag value. The name of the tag must already exist.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-manager.png
   humanURL: https://docs.microsoft.com/en-us/rest/api/resources/
   baseURL: http:://management.azure.com//
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/azure-resource-manager/subscriptions-subscriptionid-tagnames-tagname-tagvalues-tagvalue-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/azure-resource-manager/subscriptions-subscriptionid-tagnames-tagname-tagvalues-tagvalue-put.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/azure-resource-manager/subscriptions-subscriptionid-tagnames-tagname-tagvalues-tagvalue-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/azure-resource-manager/subscriptions-subscriptionid-tagnames-tagname-tagvalues-tagvalue-put-postman.md
 x-common:
 - type: x-website
   url: https://docs.microsoft.com/en-us/rest/api/resources/
