@@ -57,24 +57,20 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-tag-top-askers-period-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-tag-top-askers-period-get-postman.md
-- name: Stack Exchange Get User Tags Top Questions
-  description: "Returns the top 30 questions a user has asked with the given tags.\n
-    \n{id} can contain a single id, to find it programatically look for user_id on
-    user or shallow_user objects. {tags} is limited to 5 tags, passing more will result
-    in an error.\n \nThe sorts accepted by this method operate on the follow fields
-    of the question object:\n - activity - last_activity_date\n - creation - creation_date\n
-    - votes - score\n  activity is the default sort.\n \n It is possible to create
-    moderately complex queries using sort, min, max, fromdate, and todate.\n \nThis
-    method returns a list of questions."
+- name: Stack Exchange Get User Top Answers Tags
+  description: "Returns a single user's top tags by answer score.\n \nThis a subset
+    of the data returned on a user's tags tab.\n \n{id} can contain a single id, to
+    find it programatically look for user_id on user or shallow_user objects.\n \nThis
+    method returns a list of top_tag objects."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
   humanURL: https://stackexchange.com/
   baseURL: https://api.stackexchange.com//2.2
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/users-id-tags-tags-top-questions-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/users-id-top-answer-tags-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/users-id-tags-tags-top-questions-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/users-id-top-answer-tags-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
