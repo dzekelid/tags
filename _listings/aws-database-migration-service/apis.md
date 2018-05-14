@@ -35,16 +35,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-database-migration-service/action-removetagsfromresource-get.md
-- name: AWS Database Migration Service API Add Tags To Resource
-  description: Adds metadata tags to a DMS resource, including replication instance,
-    endpoint, security group, and migration task.
+- name: AWS Database Migration Service API List Tags For Resource
+  description: Lists all tags for an AWS DMS resource.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-icon-dms.png
   humanURL: https://aws.amazon.com/dms/
   baseURL: http:://{host}//
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-database-migration-service/action-addtagstoresource-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-database-migration-service/action-listtagsforresource-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/dms/latest/APIReference/Welcome.html
