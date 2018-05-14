@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Data Pipeline API
+  title: AWS Data Pipeline API Add Tags
   version: 1.0.0
+  description: Adds or modifies tags for the specified pipeline.
 schemes:
 - http
 produces:
