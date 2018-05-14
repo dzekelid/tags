@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Machine Learning API
+  title: AWS Machine Learning API Delete Tags
   version: 1.0.0
+  description: Deletes the specified tags associated with an ML object.
 schemes:
 - http
 produces:
