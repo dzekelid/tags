@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Auto Scaling API
+  title: AWS Auto Scaling API Delete Tags
   version: 1.0.0
+  description: Deletes the specified tags.
 schemes:
 - http
 produces:
