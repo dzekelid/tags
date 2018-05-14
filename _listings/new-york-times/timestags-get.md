@@ -1,14 +1,15 @@
 ---
 swagger: "2.0"
 info:
-  title: New York Times
-  description: You already know that NYTimes.com is an unparalleled source of news
-    and information. But now it's a premier source of data, too &mdash; why just read
-    the news when you can hack it?
+  title: New York Times Times Tag
+  description: With the TimesTags API, you can mine the riches of the New York Times
+    tag set. The TimesTags service matches your query to the controlled vocabularies
+    that fuel NYTimes.com metadata. You supply a string of characters, and the service
+    returns a ranked list of suggested terms.
   termsOfService: https://developer.nytimes.com/tou
   version: 2.0.0
 host: api.nytimes.com
-basePath: /svc/search/v2
+basePath: /svc
 schemes:
 - http
 produces:
