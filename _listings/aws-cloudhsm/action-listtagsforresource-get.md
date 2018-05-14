@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudHSM API
+  title: AWS CloudHSM API List Tags For Resource
   version: 1.0.0
+  description: Returns a list of all tags for the specified AWS CloudHSM resource.
 schemes:
 - http
 produces:
