@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 API
+  title: AWS EC2 API Delete Tags
   version: 1.0.0
+  description: Deletes the specified set of tags from the specified set of resources.
 schemes:
 - http
 produces:
