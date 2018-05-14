@@ -44,22 +44,24 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-required-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-required-get-postman.md
-- name: Stack Exchange Get Tags FAQ
-  description: "Returns the frequently asked questions for the given set of tags in
-    {tags}.\n \nFor a question to be returned, it must have all the tags in {tags}
-    and be considered \"frequently asked\". The exact algorithm for determining whether
-    a question is considered a FAQ is subject to change at any time.\n \n{tags} can
-    contain up to 5 individual tags per request.\n \nThis method returns a list of
-    questions."
+- name: Stack Exchange Get Tags Info
+  description: "Returns tag objects representing the tags in {tags} found on the site.\n
+    \nThis method diverges from the standard naming patterns to avoid to conflicting
+    with existing methods, due to the free form nature of tag names.\n \nThis method
+    returns a list of tags.\n \nThe sorts accepted by this method operate on the follow
+    fields of the tag object:\n - popular - count\n - activity - the creation_date
+    of the last question asked with the tag\n - name - name\n  popular is the default
+    sort.\n \n It is possible to create moderately complex queries using sort, min,
+    max, fromdate, and todate."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
   humanURL: https://stackexchange.com/
   baseURL: https://api.stackexchange.com//2.2
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-tags-faq-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-tags-info-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-tags-faq-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-tags-info-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
