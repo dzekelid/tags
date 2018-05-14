@@ -33,15 +33,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-elastic-mapreduce/action-removetags-get.md
-- name: AWS Elastic MapReduce API Add Tags
-  description: Adds tags to an Amazon EMR resource.
+- name: AWS Elastic MapReduce API Remove Tags
+  description: Removes tags from an Amazon EMR resource.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonEMR.png
   humanURL: https://aws.amazon.com/emr/
   baseURL: http:://{host}//
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-elastic-mapreduce/action-addtags-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-elastic-mapreduce/action-removetags-get.md
 x-common:
 - type: x-article
   url: http://aws.amazon.com/articles/Elastic-MapReduce
