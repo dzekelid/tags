@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Database Migration Service API
+  title: AWS Database Migration Service API List Tags For Resource
   version: 1.0.0
+  description: Lists all tags for an AWS DMS resource.
 schemes:
 - http
 produces:
