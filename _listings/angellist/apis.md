@@ -34,17 +34,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/angellist/tags-tag-id-users-get.md
-- name: AngelList Get Jobs by Tag
-  description: Get Jobs by Tag
+- name: AngelList Get Tag Parents
+  description: Get Tag Parents
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1/
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/angellist/tags-tag-id-jobs-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/angellist/tags-tag-id-parents-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/angellist/tags-tag-id-jobs-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/angellist/tags-tag-id-parents-get-postman.md
 x-common:
 - type: x-blog
   url: https://blog.angel.co
