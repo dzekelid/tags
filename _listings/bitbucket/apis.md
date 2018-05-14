@@ -26,17 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/bitbucket/repositories-username-repo-slug-refs-tags-name-parameters.md
-- name: Bitbucket Get Repositories Username Repo Slug Refs Tags Name
-  description: Get repositories username repo slug refs tags name
+- name: Bitbucket Parameters Repositories Username Repo Slug Refs Tags Name
+  description: Parameters repositories username repo slug refs tags name
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
   humanURL: https://bitbucket.org/
   baseURL: https://api.bitbucket.org//2.0
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/bitbucket/repositories-username-repo-slug-refs-tags-name-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/bitbucket/repositories-username-repo-slug-refs-tags-name-parameters.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/bitbucket/repositories-username-repo-slug-refs-tags-name-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/bitbucket/repositories-username-repo-slug-refs-tags-name-parameters-postman.md
 x-common:
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
