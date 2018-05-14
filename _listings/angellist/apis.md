@@ -34,17 +34,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/angellist/tags-tag-id-users-get.md
-- name: AngelList Get Startups by Tag
-  description: Get Startups by Tag
+- name: AngelList Get Users by Tag
+  description: Get Users by Tag
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1/
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/angellist/tags-tag-id-startups-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/angellist/tags-tag-id-users-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/angellist/tags-tag-id-startups-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/angellist/tags-tag-id-users-get-postman.md
 x-common:
 - type: x-blog
   url: https://blog.angel.co
