@@ -39,15 +39,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-elastic-load-balancing/action-removetags-get.md
-- name: AWS Elastic Load Balancing API Add Tags
-  description: Adds the specified tags to the specified resource.
+- name: AWS Elastic Load Balancing API Describe Tags
+  description: Describes the tags for the specified resources.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_ElasticLoadBalancing.png
   humanURL: https://aws.amazon.com/elasticloadbalancing/
   baseURL: http:://{host}//
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-elastic-load-balancing/action-addtags-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-elastic-load-balancing/action-describetags-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/elbv2/index.html
