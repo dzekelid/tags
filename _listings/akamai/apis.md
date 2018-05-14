@@ -25,15 +25,15 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Akamai API Get an Image Collection&#8217;s Tags
-  description: Get an Image Collection&#8217;s Tags
+- name: Akamai API Modify an Image Collection&#8217;s Tags
+  description: Modify an Image Collection&#8217;s Tags
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/akamai/imaging-v0-imagecollections-tags-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/akamai/imaging-v0-imagecollections-tags-id-put.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
