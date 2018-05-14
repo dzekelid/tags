@@ -37,7 +37,36 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-direct-connect/action-untagresource-get.md
+- name: AWS Direct Connect API Describe Tags
+  description: Describes the tags associated with the specified Direct Connect resources.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AWSDirectConnect.png
+  humanURL: https://aws.amazon.com/directconnect/
+  baseURL: http:://{host}//
+  tags: Tags
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-direct-connect/action-describetags-get.md
 x-common:
+- type: x-change-log
+  url: http://aws.amazon.com/releasenotes/AWS-Direct-Connect
+- type: x-console
+  url: https://console.aws.amazon.com/directconnect/
+- type: x-documentation
+  url: http://docs.aws.amazon.com/directconnect/latest/APIReference/Welcome.html
+- type: x-faq
+  url: https://aws.amazon.com/directconnect/faqs/
+- type: x-forum
+  url: https://forums.aws.amazon.com/forum.jspa?forumID=126
+- type: x-getting-started
+  url: https://aws.amazon.com/directconnect/getting-started/
+- type: x-partner-bundles
+  url: ttps://aws.amazon.com/directconnect/directconnectbundles/
+- type: x-partners
+  url: https://aws.amazon.com/directconnect/partners/
+- type: x-pricing
+  url: https://aws.amazon.com/directconnect/pricing/
+- type: x-website
+  url: https://aws.amazon.com/directconnect/
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/AWS-Direct-Connect
 - type: x-console
