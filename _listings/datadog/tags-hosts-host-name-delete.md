@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: DataDog Merged API
+  title: DataDog API Delete Tags Hosts Host Name
   version: 1.0.0
+  description: This end point allows you to remove all tags for a given host.
 basePath: api/v1/
 schemes:
 - http
