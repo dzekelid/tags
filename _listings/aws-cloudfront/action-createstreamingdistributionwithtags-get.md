@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudFront API
+  title: AWS CloudFront API Create Streaming Distribution With Tags
   version: 1.0.0
+  description: Create a new streaming distribution with tags.
 schemes:
 - http
 produces:
