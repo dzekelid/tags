@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudHSM API
+  title: AWS CloudHSM API Remove Tags From Resource
   version: 1.0.0
+  description: Removes one or more tags from the specified AWS CloudHSM resource.
 schemes:
 - http
 produces:
