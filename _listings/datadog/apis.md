@@ -31,15 +31,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/datadog/tags-hosts-host-name-delete.md
-- name: DataDog API Add Tags Hosts Host Name
-  description: This end point allows you to add tags to a host.
+- name: DataDog API Put Tags Hosts Host Name
+  description: This end point allows you to update all tags for a given host.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
   humanURL: https://www.datadoghq.com/
   baseURL: https://{host}/api/v1/
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/datadog/tags-hosts-host-name-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/datadog/tags-hosts-host-name-put.md
 x-common:
 - type: x-blog
   url: https://www.datadoghq.com/blog/
