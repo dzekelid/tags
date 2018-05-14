@@ -34,7 +34,32 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-data-pipeline/action-removetags-get.md
+- name: AWS Data Pipeline API Add Tags
+  description: Adds or modifies tags for the specified pipeline.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datapipelinelogo.jpeg
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: http:://{host}//
+  tags: Tags
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-data-pipeline/action-addtags-get.md
 x-common:
+- type: x-blog
+  url: http://blogs.aws.amazon.com/bigdata
+- type: x-change-log
+  url: http://aws.amazon.com/releasenotes/AWS-Data-Pipeline/
+- type: x-documentation
+  url: http://docs.aws.amazon.com/datapipeline/latest/APIReference/
+- type: x-faq
+  url: https://aws.amazon.com/datapipeline/faqs/
+- type: x-forum
+  url: https://forums.aws.amazon.com/forum.jspa?forumID=151
+- type: x-pricing
+  url: https://aws.amazon.com/datapipeline/pricing/
+- type: x-tools
+  url: http://aws.amazon.com/developertools/AWS-Data-Pipeline/
+- type: x-website
+  url: https://aws.amazon.com/datapipeline/
 - type: x-blog
   url: http://blogs.aws.amazon.com/bigdata
 - type: x-change-log
