@@ -34,17 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-ec2/action-describetags-get.md
-- name: AWS EC2 API Create Tags
-  description: |-
-    Adds or overwrites one or more tags for the specified Amazon EC2 resource or
-             resources.
+- name: AWS EC2 API Delete Tags
+  description: Deletes the specified set of tags from the specified set of resources.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
   humanURL: https://aws.amazon.com/ec2/
   baseURL: http:://{host}//
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-ec2/action-createtags-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-ec2/action-deletetags-get.md
 x-common:
 - type: x-code
   url: http://aws.amazon.com/code/Amazon-EC2/
