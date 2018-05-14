@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Database Migration Service API
+  title: AWS Database Migration Service API Add Tags To Resource
   version: 1.0.0
+  description: Adds metadata tags to a DMS resource, including replication instance,
+    endpoint, security group, and migration task.
 schemes:
 - http
 produces:
