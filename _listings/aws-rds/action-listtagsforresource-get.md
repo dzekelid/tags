@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS RDS API
+  title: Amazon RDS API List Tags For Resource
   version: 1.0.0
+  description: Lists all tags on an Amazon RDS resource.
 schemes:
 - http
 produces:
