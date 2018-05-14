@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Direct Connect API
+  title: AWS Direct Connect API Describe Tags
   version: 1.0.0
+  description: Describes the tags associated with the specified Direct Connect resources.
 schemes:
 - http
 produces:
