@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Data Pipeline API
+  title: AWS Data Pipeline API Remove Tags
   version: 1.0.0
+  description: Removes existing tags from the specified pipeline.
 schemes:
 - http
 produces:
