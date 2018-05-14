@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Directory Service API
+  title: AWS Directory Service API Remove Tags From Resource
   version: 1.0.0
+  description: Removes tags from a directory.
 schemes:
 - http
 produces:
