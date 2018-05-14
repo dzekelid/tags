@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudTrail API
+  title: AWS CloudTrail API Add Tags
   version: 1.0.0
+  description: Adds one or more tags to a trail, up to a limit of 50.
 schemes:
 - http
 produces:
