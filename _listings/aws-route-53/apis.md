@@ -41,17 +41,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-route-53/2013-04-01-tags-resourcetype-post.md
-- name: AWS Route 53 API List Tags For Resource
-  description: Lists tags for one health check or hosted zone. For information about
-    using tags for cost allocation, see Using Cost Allocation Tags in the AWS Billing
-    and Cost Management User Guide.
+- name: AWS Route 53 API List Tags For Resources
+  description: Lists tags for up to 10 health checks or hosted zones.For information
+    about using tags for cost allocation, see Using Cost Allocation Tags in the AWS
+    Billing and Cost Management User Guide.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png
   humanURL: https://aws.amazon.com/route53/
   baseURL: http:://{host}//
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-route-53/2013-04-01-tags-resourcetype-resourceid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-route-53/2013-04-01-tags-resourcetype-post.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/Route53/latest/APIReference/
