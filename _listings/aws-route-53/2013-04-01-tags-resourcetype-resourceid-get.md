@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Route 53 API
+  title: AWS Route 53 API List Tags For Resource
   version: 1.0.0
+  description: Lists tags for one health check or hosted zone. For information about
+    using tags for cost allocation, see Using Cost Allocation Tags in the AWS Billing
+    and Cost Management User Guide.
 schemes:
 - http
 produces:
