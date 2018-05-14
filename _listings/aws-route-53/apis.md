@@ -41,7 +41,36 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-route-53/2013-04-01-tags-resourcetype-post.md
+- name: AWS Route 53 API List Tags For Resource
+  description: Lists tags for one health check or hosted zone. For information about
+    using tags for cost allocation, see Using Cost Allocation Tags in the AWS Billing
+    and Cost Management User Guide.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png
+  humanURL: https://aws.amazon.com/route53/
+  baseURL: http:://{host}//
+  tags: Tags
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-route-53/2013-04-01-tags-resourcetype-resourceid-get.md
 x-common:
+- type: x-documentation
+  url: http://docs.aws.amazon.com/Route53/latest/APIReference/
+- type: x-faq
+  url: https://aws.amazon.com/route53/faqs/
+- type: x-forum
+  url: https://forums.aws.amazon.com/forum.jspa?forumID=87
+- type: x-pricing
+  url: https://aws.amazon.com/route53/pricing/
+- type: x-registrar-policies
+  url: https://aws.amazon.com/route53/amazon-registrar-policies/
+- type: x-service-health
+  url: http://status.aws.amazon.com/
+- type: x-service-level-agreement
+  url: https://aws.amazon.com/route53/sla
+- type: x-sla
+  url: https://aws.amazon.com/route53/sla/
+- type: x-website
+  url: https://aws.amazon.com/route53/
 - type: x-documentation
   url: http://docs.aws.amazon.com/Route53/latest/APIReference/
 - type: x-faq
