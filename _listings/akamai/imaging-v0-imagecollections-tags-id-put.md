@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Modify an Image Collection&#8217;s Tags
+  description: Modify an Image Collection&#8217;s Tags
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,7 +19,7 @@ paths:
       description: Modify an Image Collection&#8217;s Tags
       operationId: imagingv0imagecollectionstagsid
       parameters:
-      - in: String
+      - in: query
         name: id
         description: 'Unique identifier for the image collection '
         type: string
