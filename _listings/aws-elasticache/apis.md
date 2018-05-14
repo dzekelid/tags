@@ -34,15 +34,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-elasticache/action-removetagsfromresource-get.md
-- name: Amazon ElastiCache API List Tags For Resource
-  description: Lists all cost allocation tags currently on the named resource.
+- name: Amazon ElastiCache API Remove Tags From Resource
+  description: "Removes the tags identified by the TagKeys \n            list from
+    the named resource."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonElasticCache.png
   humanURL: https://aws.amazon.com/elasticache/
   baseURL: http:://{host}//
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-elasticache/action-listtagsforresource-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-elasticache/action-removetagsfromresource-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/Welcome.html
