@@ -27,19 +27,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/azure-resource-manager/subscriptions-subscriptionid-tagnames-get.md
-- name: Azure Resource Manager API Creates a tag in the subscription.
-  description: The tag name can have a maximum of 512 characters and is case insensitive.
-    Tag names created by Azure have prefixes of microsoft, azure, or windows. You
-    cannot create tags with one of these prefixes.
+- name: Azure Resource Manager API Deletes a tag from the subscription.
+  description: You must remove all values from a resource tag before you can delete
+    it.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-manager.png
   humanURL: https://docs.microsoft.com/en-us/rest/api/resources/
   baseURL: http:://management.azure.com//
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/azure-resource-manager/subscriptions-subscriptionid-tagnames-tagname-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/azure-resource-manager/subscriptions-subscriptionid-tagnames-tagname-delete.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/azure-resource-manager/subscriptions-subscriptionid-tagnames-tagname-put-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/azure-resource-manager/subscriptions-subscriptionid-tagnames-tagname-delete-postman.md
 x-common:
 - type: x-website
   url: https://docs.microsoft.com/en-us/rest/api/resources/
