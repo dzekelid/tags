@@ -26,19 +26,19 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stack Exchange My Tags Top Answers
-  description: "Returns the top 30 answers the user associated with the given access_token
+- name: Stack Exchange My Tags Top Questions
+  description: "Returns the top 30 questions the user associated with the given access_token
     has posted in response to questions with the given tags.\n \nThis method returns
-    a list of answers."
+    a list of questions."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
   humanURL: https://stackexchange.com/
   baseURL: https://api.stackexchange.com//2.2
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/me-tags-tags-top-answers-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/me-tags-tags-top-questions-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/me-tags-tags-top-answers-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/me-tags-tags-top-questions-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
