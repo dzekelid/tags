@@ -32,15 +32,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-cloudtrail/action-removetags-get.md
-- name: AWS CloudTrail API Add Tags
-  description: Adds one or more tags to a trail, up to a limit of 50.
+- name: AWS CloudTrail API Remove Tags
+  description: Removes the specified tags from a trail.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudTrail.png
   humanURL: https://aws.amazon.com/cloudtrail/
   baseURL: http:://{host}//
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-cloudtrail/action-addtags-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-cloudtrail/action-removetags-get.md
 x-common:
 - type: x-console
   url: https://console.aws.amazon.com/cloudtrail/home
