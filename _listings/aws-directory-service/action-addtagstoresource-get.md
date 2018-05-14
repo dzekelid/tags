@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Directory Service API
+  title: AWS Directory Service API Add Tags To Resource
   version: 1.0.0
+  description: Adds or overwrites one or more tags for the specified directory.
 schemes:
 - http
 produces:
