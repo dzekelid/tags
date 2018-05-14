@@ -35,15 +35,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-certificate-manager/action-removetagsfromcertificate-get.md
-- name: AWS Certificate Manager API Add Tags To Certificate
-  description: Adds one or more tags to an ACM Certificate.
+- name: AWS Certificate Manager API List Tags For Certificate
+  description: Lists the tags that have been applied to the ACM Certificate.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_ACM_certificate-manager.png
   humanURL: https://aws.amazon.com/certificate-manager/
   baseURL: http:://{host}//
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-certificate-manager/action-addtagstocertificate-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-certificate-manager/action-listtagsforcertificate-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/acm/index.html
