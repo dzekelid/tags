@@ -44,7 +44,58 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-required-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-required-get-postman.md
+- name: Stack Exchange Get Tags Synonyms
+  description: "Returns all tag synonyms found a site.\n \nWhen searching for synonyms
+    of specific tags, it is better to use /tags/{tags}/synonyms over this method.\n
+    \nThe sorts accepted by this method operate on the follow fields of the tag_synonym
+    object:\n - creation - creation_date\n - applied - applied_count\n - activity
+    - last_applied_date\n  creation is the default sort.\n \n It is possible to create
+    moderately complex queries using sort, min, max, fromdate, and todate.\n \nThis
+    method returns a list of tag_synonyms."
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
+  humanURL: https://stackexchange.com/
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Tags
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-synonyms-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-synonyms-get-postman.md
 x-common:
+- type: x-authentication
+  url: https://api.stackexchange.com/docs/authentication
+- type: x-base
+  url: https://api.stackexchange.com/
+- type: x-blog
+  url: http://stackexchange.com/blogs
+- type: x-blog-rss
+  url: http://blog.stackoverflow.com/feed/
+- type: x-crunchbase
+  url: http://www.crunchbase.com/company/stack-exchange
+- type: x-developer
+  url: http://api.stackexchange.com/
+- type: x-email
+  url: team+api@stackexchange.com
+- type: x-error-codes
+  url: https://api.stackexchange.com/docs/error-handling
+- type: x-github
+  url: https://github.com/StackExchange
+- type: x-javascript-sdk
+  url: https://api.stackexchange.com/docs/js-lib
+- type: x-privacy
+  url: https://stackexchange.com/legal/privacy-policy
+- type: x-rate-limits
+  url: https://api.stackexchange.com/docs/throttle
+- type: x-selfservice-registration
+  url: https://stackapps.com/users/login?returnurl=/apps/oauth/register
+- type: x-support
+  url: https://stackexchange.com/about/contact
+- type: x-terms-of-service
+  url: http://stackexchange.com/legal/api-terms-of-use
+- type: x-twitter
+  url: https://twitter.com/StackExchange
+- type: x-website
+  url: https://stackexchange.com/
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
 - type: x-base
