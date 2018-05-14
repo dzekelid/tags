@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS RDS API
+  title: Amazon RDS API Add Tags To Resource
   version: 1.0.0
+  description: Adds metadata tags to an Amazon RDS resource.
 schemes:
 - http
 produces:
