@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CodeDeploy API
+  title: AWS CodeDeploy API Add Tags To On Premises Instances
   version: 1.0.0
+  description: Adds tags to on-premises instances.
 schemes:
 - http
 produces:
