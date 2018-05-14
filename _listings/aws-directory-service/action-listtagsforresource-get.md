@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Directory Service API
+  title: AWS Directory Service API List Tags For Resource
   version: 1.0.0
+  description: Lists all tags on a directory.
 schemes:
 - http
 produces:
