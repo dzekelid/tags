@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 Systems Manager API
+  title: Amazon EC2 Systems Manager API Remove Tags From Resource
   version: 1.0.0
+  description: Removes all tags from the specified resource.
 schemes:
 - http
 produces:
