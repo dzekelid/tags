@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Storage Gateway Service API
+  title: AWS Storage Gateway Service API Remove Tags From Resource
   version: 1.0.0
+  description: Removes one or more tags from the specified resource.
 schemes:
 - http
 produces:
