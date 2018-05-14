@@ -35,15 +35,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-storage-gateway-service/action-removetagsfromresource-get.md
-- name: AWS Storage Gateway Service API Add Tags To Resource
-  description: Adds one or more tags to the specified resource.
+- name: AWS Storage Gateway Service API List Tags For Resource
+  description: Lists the tags that have been added to the specified resource.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
   humanURL: https://aws.amazon.com/storagegateway/
   baseURL: http:://{host}//
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-storage-gateway-service/action-addtagstoresource-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-storage-gateway-service/action-listtagsforresource-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/storagegateway/latest/APIReference
