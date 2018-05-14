@@ -1,10 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: SubscriptionClient
-  description: All resource groups and resources exist within subscriptions. These
-    operation enable you get information about your subscriptions and tenants. A tenant
-    is a dedicated instance of Azure Active Directory (Azure AD) for your organization.
+  title: Azure Resource Manager API Creates a tag in the subscription.
+  description: The tag name can have a maximum of 512 characters and is case insensitive.
+    Tag names created by Azure have prefixes of microsoft, azure, or windows. You
+    cannot create tags with one of these prefixes.
   version: 1.0.0
 host: management.azure.com
 basePath: /
