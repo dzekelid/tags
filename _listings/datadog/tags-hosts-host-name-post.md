@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: DataDog Merged API
+  title: DataDog API Add Tags Hosts Host Name
   version: 1.0.0
+  description: This end point allows you to add tags to a host.
 basePath: api/v1/
 schemes:
 - http
