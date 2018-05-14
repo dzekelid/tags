@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudFront API
+  title: AWS CloudFront API List Tags For Resource
   version: 1.0.0
+  description: List tags for a CloudFront resource.
 schemes:
 - http
 produces:
