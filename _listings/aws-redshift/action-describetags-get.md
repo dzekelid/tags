@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Describe Tags
   version: 1.0.0
+  description: Returns a list of tags.
 schemes:
 - http
 produces:
