@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Storage Gateway Service API
+  title: AWS Storage Gateway Service API Add Tags To Resource
   version: 1.0.0
+  description: Adds one or more tags to the specified resource.
 schemes:
 - http
 produces:
