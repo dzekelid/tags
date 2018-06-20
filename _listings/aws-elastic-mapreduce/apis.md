@@ -1,64 +1,61 @@
 ---
 name: AWS Elastic MapReduce
+x-slug: aws-elastic-mapreduce
 description: Amazon EMR provides a managed Hadoop framework that makes it easy, fast,
   and cost-effective to process vast amounts of data across dynamically scalable Amazon
   EC2 instances. You can also run other popular distributed frameworks such as Apache
   Spark, HBase, Presto, and Flink in Amazon EMR, and interact with data in other AWS
-  data stores such as Amazon S3 and Amazon DynamoDB.nAmazon EMR securely and reliably
+  data stores such as Amazon S3 and Amazon DynamoDB.Amazon EMR securely and reliably
   handles a broad set of big data use cases, including log analysis, web indexing,
   data transformations (ETL), machine learning, financial analysis, scientific simulation,
   and bioinformatics.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonEMR.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- MapReduce
-- Database
-- Data
-- Amazon Web Services
-created: "2018-03-24"
-modified: "2018-03-24"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-elastic-mapreduce/apis.yaml
+x-alexaRank: "0"
+tags: Tags
+created: "2018-06-20"
+modified: "2018-06-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-elastic-mapreduce/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS Elastic MapReduce API Add Tags
+  x-api-slug: aws-elastic-mapreduce-api
+  description: Adds tags to an Amazon EMR resource.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonEMR.png
+  humanURL: https://aws.amazon.com/emr/
+  baseURL: ://///?Action=AddTags
+  tags: Tags
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-elastic-mapreduce/actionaddtags-get-openapi.md
+- name: AWS Elastic MapReduce API Remove Tags
+  x-api-slug: aws-elastic-mapreduce-api
+  description: Removes tags from an Amazon EMR resource.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonEMR.png
+  humanURL: https://aws.amazon.com/emr/
+  baseURL: ://///?Action=RemoveTags
+  tags: Tags
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-elastic-mapreduce/actionremovetags-get-openapi.md
 - name: AWS Elastic MapReduce API
+  x-api-slug: aws-elastic-mapreduce-api
   description: Amazon EMR provides a managed Hadoop framework that makes it easy,
     fast, and cost-effective to process vast amounts of data across dynamically scalable
-    Amazon EC2 instances
+    Amazon EC2 instances. You can also run other popular distributed frameworks such
+    as Apache Spark, HBase, Presto, and Flink in Amazon EMR, and interact with data
+    in other AWS data stores such as Amazon S3 and Amazon DynamoDB.Amazon EMR securely
+    and reliably handles a broad set of big data use cases, including log analysis,
+    web indexing, data transformations (ETL), machine learning, financial analysis,
+    scientific simulation, and bioinformatics.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonEMR.png
-  humanURL: ""
+  humanURL: https://aws.amazon.com/emr/
   baseURL: :///
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-elastic-mapreduce/action-removetags-get.md
-- name: AWS Elastic MapReduce API Remove Tags
-  description: Removes tags from an Amazon EMR resource.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonEMR.png
-  humanURL: https://aws.amazon.com/emr/
-  baseURL: http:://{host}//
-  tags: Tags
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-elastic-mapreduce/action-removetags-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-elastic-mapreduce/openapi.md
 x-common:
-- type: x-article
-  url: http://aws.amazon.com/articles/Elastic-MapReduce
-- type: x-command-line-interface
-  url: http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-cli-reference.html
-- type: x-faq
-  url: https://aws.amazon.com/emr/faqs/
-- type: x-getting-started
-  url: https://aws.amazon.com/emr/getting-started/
-- type: x-partners
-  url: https://aws.amazon.com/emr/partners/
-- type: x-pricing
-  url: https://aws.amazon.com/emr/pricing/
-- type: x-documentation
-  url: http://docs.aws.amazon.com/ElasticMapReduce/latest/API/
-- type: x-website
-  url: https://aws.amazon.com/emr/
 - type: x-article
   url: http://aws.amazon.com/articles/Elastic-MapReduce
 - type: x-command-line-interface

@@ -1,66 +1,95 @@
 ---
-name: DataDog
-description: Datadog is a monitoring service that brings together metrics and events
-  from servers, databases, applications, tools and services to present a unified view
-  of the infrastructure. These capabilities are provided on a SaaS-based data analytics
-  platform that enables Dev and Ops teams to work collaboratively on the infrastructure
-  to avoid downtime, resolve performance problems, and ensure that development and
-  deployment cycles finish on time.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+name: Datadog
+x-slug: datadog
+description: See inside any stack, any app, at any scale, anywhere.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Performance
-- Orchestration
-- Monitoring
-- Aggregation
-created: "2018-03-24"
-modified: "2018-03-24"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/datadog/apis.yaml
+x-alexaRank: "13593"
+tags: Tags
+created: "2018-06-20"
+modified: "2018-06-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/datadog/apis.md
 specificationVersion: "0.14"
 apis:
+- name: DataDog API Get Tags Hosts
+  x-api-slug: datadog-api
+  description: Return a mapping of tags to hosts for your whole infrastructure.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
+  humanURL: https://www.datadoghq.com/
+  baseURL: https:///api/v1///tags/hosts
+  tags: Monitoring,Tags, Hosts
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/datadog/tagshosts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/datadog/tagshosts-get-openapi.md
+- name: DataDog API Get Tags Hosts Host Name
+  x-api-slug: datadog-api
+  description: Return the list of tags that apply to a given host.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
+  humanURL: https://www.datadoghq.com/
+  baseURL: https:///api/v1///tags/hosts/:host_name
+  tags: Monitoring,Tags, Hosts, Host, Name
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/datadog/tagshostshost-name-get-openapi.md
+- name: DataDog API Add Tags Hosts Host Name
+  x-api-slug: datadog-api
+  description: This end point allows you to add tags to a host.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
+  humanURL: https://www.datadoghq.com/
+  baseURL: https:///api/v1///tags/hosts/:host_name
+  tags: Monitoring,Tags, Hosts, Host, Name
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/datadog/tagshostshost-name-post-openapi.md
+- name: DataDog API Put Tags Hosts Host Name
+  x-api-slug: datadog-api
+  description: This end point allows you to update all tags for a given host.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
+  humanURL: https://www.datadoghq.com/
+  baseURL: https:///api/v1///tags/hosts/:host_name
+  tags: Monitoring,Tags, Hosts, Host, Name
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/datadog/tagshostshost-name-put-openapi.md
+- name: DataDog API Delete Tags Hosts Host Name
+  x-api-slug: datadog-api
+  description: This end point allows you to remove all tags for a given host.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
+  humanURL: https://www.datadoghq.com/
+  baseURL: https:///api/v1///tags/hosts/:host_name
+  tags: Monitoring,Tags, Hosts, Host, Name
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/datadog/tagshostshost-name-delete-openapi.md
 - name: DataDog API
-  description: Datadog is a monitoring service that brings together metrics and events
-    from servers, databases, applications, tools and services to present a unified
-    view of the infrastructure
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
-  humanURL: ""
+  x-api-slug: datadog-api
+  description: See inside any stack, any app, at any scale, anywhere.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
+  humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1/
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/datadog/tags-hosts-host-name-delete.md
-- name: DataDog API Delete Tags Hosts Host Name
-  description: This end point allows you to remove all tags for a given host.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
-  humanURL: https://www.datadoghq.com/
-  baseURL: https://{host}/api/v1/
-  tags: Tags
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/datadog/tags-hosts-host-name-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/datadog/openapi.md
 x-common:
 - type: x-blog
   url: https://www.datadoghq.com/blog/
 - type: x-blog-rss
   url: https://www.datadoghq.com/feed/
-- type: x-github
-  url: https://github.com/datadog
-- type: x-twitter
-  url: https://twitter.com/datadoghq
-- type: x-integrations
-  url: https://www.datadoghq.com/product/integrations/
-- type: x-pricing
-  url: https://www.datadoghq.com/pricing/
-- type: x-security
-  url: https://www.datadoghq.com/security/
-- type: x-website
-  url: https://www.datadoghq.com/
-- type: x-blog
-  url: https://www.datadoghq.com/blog/
-- type: x-blog-rss
-  url: https://www.datadoghq.com/feed/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/datadog
+- type: x-email
+  url: info@datadoghq.com
+- type: x-email
+  url: help@datadoghq.com
+- type: x-email
+  url: legalcompliance@datadoghq.com
+- type: x-email
+  url: legal@datadoghq.com
+- type: x-email
+  url: iwant@datadoghq.com
 - type: x-github
   url: https://github.com/datadog
 - type: x-twitter

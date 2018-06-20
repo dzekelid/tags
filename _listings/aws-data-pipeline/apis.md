@@ -1,65 +1,67 @@
 ---
 name: AWS Data Pipeline
+x-slug: aws-data-pipeline
 description: AWS Data Pipeline is a web service that helps you reliably process and
   move data between different AWS compute and storage services, as well as on-premise
   data sources, at specified intervals. With AWS Data Pipeline, you can regularly
-  access your data where itrsquo;s stored, transform and process it at scale, and
+  access your data where it&rsquo;s stored, transform and process it at scale, and
   efficiently transfer the results to AWS services such as Amazon S3, Amazon RDS,
-  Amazon DynamoDB, and Amazon EMR.nAWS Data Pipeline helps you easily create complex
+  Amazon DynamoDB, and Amazon EMR.AWS Data Pipeline helps you easily create complex
   data processing workloads that are fault tolerant, repeatable, and highly available.
-  You donrsquo;t have to worry about ensuring resource availability, managing inter-task
+  You don&rsquo;t have to worry about ensuring resource availability, managing inter-task
   dependencies, retrying transient failures or timeouts in individual tasks, or creating
   a failure notification system. AWS Data Pipeline also allows you to move and process
   data that was previously locked up in on-premise data silos.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datapipelinelogo.jpeg
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Data
-- Amazon Web Services
-created: "2018-03-24"
-modified: "2018-03-24"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-data-pipeline/apis.yaml
+x-alexaRank: "0"
+tags: Tags
+created: "2018-06-20"
+modified: "2018-06-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-data-pipeline/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS Data Pipeline API Add Tags
+  x-api-slug: aws-data-pipeline-api
+  description: Adds or modifies tags for the specified pipeline.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: ://///?Action=AddTags
+  tags: Tags
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-data-pipeline/actionaddtags-get-openapi.md
+- name: AWS Data Pipeline API Remove Tags
+  x-api-slug: aws-data-pipeline-api
+  description: Removes existing tags from the specified pipeline.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: ://///?Action=RemoveTags
+  tags: Tags
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-data-pipeline/actionremovetags-get-openapi.md
 - name: AWS Data Pipeline API
+  x-api-slug: aws-data-pipeline-api
   description: AWS Data Pipeline is a web service that helps you reliably process
     and move data between different AWS compute and storage services, as well as on-premise
-    data sources, at specified intervals
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datapipelinelogo.jpeg
-  humanURL: ""
+    data sources, at specified intervals. With AWS Data Pipeline, you can regularly
+    access your data where it&rsquo;s stored, transform and process it at scale, and
+    efficiently transfer the results to AWS services such as Amazon S3, Amazon RDS,
+    Amazon DynamoDB, and Amazon EMR.AWS Data Pipeline helps you easily create complex
+    data processing workloads that are fault tolerant, repeatable, and highly available.
+    You don&rsquo;t have to worry about ensuring resource availability, managing inter-task
+    dependencies, retrying transient failures or timeouts in individual tasks, or
+    creating a failure notification system. AWS Data Pipeline also allows you to move
+    and process data that was previously locked up in on-premise data silos.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
   baseURL: :///
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-data-pipeline/action-removetags-get.md
-- name: AWS Data Pipeline API Remove Tags
-  description: Removes existing tags from the specified pipeline.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datapipelinelogo.jpeg
-  humanURL: https://aws.amazon.com/datapipeline/
-  baseURL: http:://{host}//
-  tags: Tags
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-data-pipeline/action-removetags-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-data-pipeline/openapi.md
 x-common:
-- type: x-blog
-  url: http://blogs.aws.amazon.com/bigdata
-- type: x-change-log
-  url: http://aws.amazon.com/releasenotes/AWS-Data-Pipeline/
-- type: x-documentation
-  url: http://docs.aws.amazon.com/datapipeline/latest/APIReference/
-- type: x-faq
-  url: https://aws.amazon.com/datapipeline/faqs/
-- type: x-forum
-  url: https://forums.aws.amazon.com/forum.jspa?forumID=151
-- type: x-pricing
-  url: https://aws.amazon.com/datapipeline/pricing/
-- type: x-tools
-  url: http://aws.amazon.com/developertools/AWS-Data-Pipeline/
-- type: x-website
-  url: https://aws.amazon.com/datapipeline/
 - type: x-blog
   url: http://blogs.aws.amazon.com/bigdata
 - type: x-change-log
