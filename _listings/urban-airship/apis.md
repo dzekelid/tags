@@ -5,10 +5,10 @@ description: A market-leading mobile app engagement, mobile analytics, mobile da
   integration and mobile wallet marketing solution.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
 x-kinRank: "8"
-x-alexaRank: "76944"
+x-alexaRank: "79571"
 tags: Tags
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/apis.md
 specificationVersion: "0.14"
 apis:
@@ -126,6 +126,8 @@ x-common:
   url: http://docs.urbanairship.com/reference/glossary.html
 - type: x-ios-sdk
   url: http://docs.urbanairship.com/platform/ios.html
+- type: x-linkedin
+  url: https://www.linkedin.com/company/urban-airship/
 - type: x-phonegap-sdk
   url: http://docs.urbanairship.com/platform/phonegap.html
 - type: x-pricing

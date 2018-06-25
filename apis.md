@@ -4,7 +4,7 @@ description: This is a repository of tags APIs, self-contained as a Github repos
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/tags.png
 created: "2018-02-24"
-modified: "2018-06-20"
+modified: "2018-06-25"
 url: http://tags.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -78,8 +78,8 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/intrinio/apis.yaml
 - name: Knoema
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/knoema/apis.yaml
-- name: New York Times
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/new-york-times/apis.yaml
+- name: The New York Times
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/the-new-york-times/apis.yaml
 - name: AngelList
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/angellist/apis.yaml
 - name: Stack Exchange
@@ -98,8 +98,8 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-cloudsearch/apis.yaml
 - name: Bitbucket
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/bitbucket/apis.yaml
-- name: Pay Run
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/pay-run/apis.yaml
+- name: PayRun.io
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/payrun-io/apis.yaml
 - name: Postmark
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/postmark/apis.yaml
 - name: Watchful
@@ -108,8 +108,6 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/click-meter/apis.yaml
 - name: HHS Media Services
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/hhs-media-services/apis.yaml
-- name: TidyHQ
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/tidyhq/apis.yaml
 - name: Plivo
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/plivo/apis.yaml
 - name: OpenRouteService
