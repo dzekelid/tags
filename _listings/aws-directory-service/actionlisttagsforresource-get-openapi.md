@@ -58,6 +58,26 @@ paths:
           description: OK
       tags:
       - Resource Tags
+  /?Action=RemoveTagsFromResource:
+    get:
+      summary: Remove Tags From Resource
+      description: Removes tags from a directory.
+      operationId: removeTagsFromResource
+      x-api-path-slug: actionremovetagsfromresource-get
+      parameters:
+      - in: query
+        name: ResourceId
+        description: Identifier (ID) of the directory from which to remove the tag
+        type: string
+      - in: query
+        name: TagKeys
+        description: The tag key (name) of the tag to be removed
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Resource Tags
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

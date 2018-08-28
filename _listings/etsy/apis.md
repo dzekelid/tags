@@ -6,48 +6,186 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.j
 x-kinRank: "9"
 x-alexaRank: "187"
 tags: Tags
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/etsy/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Etsy Get Taxonomy Tags
-  x-api-slug: etsy
+- name: Etsy - Get Taxonomy Tags
+  x-api-slug: taxonomytags-get
   description: Retrieves all related tags for the given tag set.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
-  humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private///taxonomy/tags
-  tags: Taxonomy,Tags
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/etsy/taxonomytags-get-openapi.md
-- name: Etsy Get Taxonomy Tags Tags
-  x-api-slug: etsy
-  description: Retrieves all related tags for the given tag set.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
-  humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private///taxonomy/tags/{tags}
-  tags: Taxonomy,Tags,Tags
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/etsy/taxonomytagstags-get-openapi.md
-- name: Etsy
-  x-api-slug: etsy
-  description: Etsy is a handmade marketplace. The Etsy API lets developers tap into
-    the Etsy community, building their own Etsy-powered applications for the web,
-    desktop and mobile devices. Applications built on the API will connect buyers
-    with sellers, promote the handmade lifestyle, and support the craftspeople who
-    sell on Etsy.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private/
-  tags: Tags
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/etsy/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/etsy/taxonomytags-get-openapi.md
+- name: Etsy - Get Taxonomy Tags Tags
+  x-api-slug: taxonomytagstags-get
+  description: Retrieves all related tags for the given tag set.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/etsy/taxonomytagstags-get-openapi.md
+- name: Etsy - Get Categories Tag
+  x-api-slug: categoriestag-get
+  description: Retrieves a top-level Category by tag.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/etsy/categoriestag-get-openapi.md
+- name: Etsy - Get Categories Tag Subtag
+  x-api-slug: categoriestagsubtag-get
+  description: Retrieves a second-level Category by tag and subtag.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/etsy/categoriestagsubtag-get-openapi.md
+- name: Etsy - Get Categories Tag Subtag Subsubtag
+  x-api-slug: categoriestagsubtagsubsubtag-get
+  description: Retrieves a third-level Category by tag, subtag and subsubtag.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/etsy/categoriestagsubtagsubsubtag-get-openapi.md
+- name: Etsy - Get Taxonomy Categories Tag
+  x-api-slug: taxonomycategoriestag-get
+  description: Retrieves children of a top-level Category by tag.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/etsy/taxonomycategoriestag-get-openapi.md
+- name: Etsy - Get Taxonomy Categories Tag Subtag
+  x-api-slug: taxonomycategoriestagsubtag-get
+  description: Retrieves children of a second-level Category by tag and subtag.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/etsy/taxonomycategoriestagsubtag-get-openapi.md
+- name: Etsy - Get Taxonomy Categories Tag Subtag
+  x-api-slug: taxonomycategoriestagsubtag-get
+  description: Retrieves children of a second-level Category by tag and subtag.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/etsy/taxonomycategoriestagsubtag-get-openapi.md
+- name: Etsy - Get Taxonomy Categories Tag
+  x-api-slug: taxonomycategoriestag-get
+  description: Retrieves children of a top-level Category by tag.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/etsy/taxonomycategoriestag-get-openapi.md
+- name: Etsy - Get Categories Tag Subtag Subsubtag
+  x-api-slug: categoriestagsubtagsubsubtag-get
+  description: Retrieves a third-level Category by tag, subtag and subsubtag.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/etsy/categoriestagsubtagsubsubtag-get-openapi.md
+- name: Etsy - Get Categories Tag Subtag
+  x-api-slug: categoriestagsubtag-get
+  description: Retrieves a second-level Category by tag and subtag.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/etsy/categoriestagsubtag-get-openapi.md
+- name: Etsy - Get Categories Tag
+  x-api-slug: categoriestag-get
+  description: Retrieves a top-level Category by tag.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/etsy/categoriestag-get-openapi.md
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apisdef/etsy.json
+- type: x-api-gallery
+  url: http://esme.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://etsy.stack.network
 - type: x-application-gallery
   url: https://www.etsy.com/apps/
 - type: x-base

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Etsy
 x-complete: 1
@@ -50,4 +49,92 @@ paths:
       - Taxonomy
       - Tags
       - Tags
----
+  /categories/{tag}:
+    get:
+      summary: Get Categories Tag
+      description: Retrieves a top-level Category by tag.
+      operationId: getCategoriesTag
+      x-api-path-slug: categoriestag-get
+      parameters:
+      - in: path
+        name: tag
+      responses:
+        200:
+          description: OK
+      tags:
+      - Categories
+      - Tag
+  /categories/{tag}/{subtag}:
+    get:
+      summary: Get Categories Tag Subtag
+      description: Retrieves a second-level Category by tag and subtag.
+      operationId: getCategoriesTagSubtag
+      x-api-path-slug: categoriestagsubtag-get
+      parameters:
+      - in: path
+        name: subtag
+      - in: path
+        name: tag
+      responses:
+        200:
+          description: OK
+      tags:
+      - Categories
+      - Tag
+      - Subtag
+  /categories/{tag}/{subtag}/{subsubtag}:
+    get:
+      summary: Get Categories Tag Subtag Subsubtag
+      description: Retrieves a third-level Category by tag, subtag and subsubtag.
+      operationId: getCategoriesTagSubtagSubsubtag
+      x-api-path-slug: categoriestagsubtagsubsubtag-get
+      parameters:
+      - in: path
+        name: subsubtag
+      - in: path
+        name: subtag
+      - in: path
+        name: tag
+      responses:
+        200:
+          description: OK
+      tags:
+      - Categories
+      - Tag
+      - Subtag
+      - Subsubtag
+  /taxonomy/categories/{tag}:
+    get:
+      summary: Get Taxonomy Categories Tag
+      description: Retrieves children of a top-level Category by tag.
+      operationId: getTaxonomyCategoriesTag
+      x-api-path-slug: taxonomycategoriestag-get
+      parameters:
+      - in: path
+        name: tag
+      responses:
+        200:
+          description: OK
+      tags:
+      - Taxonomy
+      - Categories
+      - Tag
+  /taxonomy/categories/{tag}/{subtag}:
+    get:
+      summary: Get Taxonomy Categories Tag Subtag
+      description: Retrieves children of a second-level Category by tag and subtag.
+      operationId: getTaxonomyCategoriesTagSubtag
+      x-api-path-slug: taxonomycategoriestagsubtag-get
+      parameters:
+      - in: path
+        name: subtag
+      - in: path
+        name: tag
+      responses:
+        200:
+          description: OK
+      tags:
+      - Taxonomy
+      - Categories
+      - Tag
+      - Subtag

@@ -33,6 +33,26 @@ paths:
           description: OK
       tags:
       - Premises Instances Tags
+  /?Action=RemoveTagsFromOnPremisesInstances:
+    get:
+      summary: Remove Tags From On Premises Instances
+      description: Removes one or more tags from one or more on-premises instances.
+      operationId: removeTagsFromOnPremisesInstances
+      x-api-path-slug: actionremovetagsfromonpremisesinstances-get
+      parameters:
+      - in: query
+        name: instanceNames
+        description: The names of the on-premises instances from which to remove tags
+        type: string
+      - in: query
+        name: tags
+        description: The tag key-value pairs to remove from the on-premises instances
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - On Premises Instances
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

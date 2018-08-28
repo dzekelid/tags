@@ -56,6 +56,46 @@ paths:
           description: OK
       tags:
       - Tags
+  /?Action=DescribeTags:
+    get:
+      summary: Describe Tags
+      description: Returns a list of tags.
+      operationId: describeTags
+      x-api-path-slug: actiondescribetags-get
+      parameters:
+      - in: query
+        name: Marker
+        description: A value that indicates the starting point for the next set of
+          response records in a            subsequent request
+        type: string
+      - in: query
+        name: MaxRecords
+        description: The maximum number or response records to return in each call
+        type: string
+      - in: query
+        name: ResourceName
+        description: The Amazon Resource Name (ARN) for which you want to describe
+          the tag or tags
+        type: string
+      - in: query
+        name: ResourceType
+        description: The type of resource with which you want to view tags
+        type: string
+      - in: query
+        name: TagKeys.TagKey.N
+        description: A tag key or keys for which you want to return all matching resources
+          that are            associated with the specified key or keys
+        type: string
+      - in: query
+        name: TagValues.TagValue.N
+        description: A tag value or values for which you want to return all matching
+          resources that are            associated with the specified value or values
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Tags
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

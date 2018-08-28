@@ -30,6 +30,32 @@ paths:
           description: OK
       tags:
       - Tags
+  /2015-01-01/tags?arn={domain_arn}:
+    get:
+      summary: List Tags
+      description: |-
+        Displays all of the tags for an Amazon ES domain. Use the GET HTTP method
+                        with this operation.
+      operationId: listTags
+      x-api-path-slug: 20150101tagsarndomain-arn-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Tags
+  es.{aws_region}.amazonaws.com/2015-01-01/tags-removal:
+    post:
+      summary: Remove Tags
+      description: |-
+        Removes the specified resource tags from an Amazon ES domain. Use the POST
+                        HTTP method with this operation.
+      operationId: removeTags
+      x-api-path-slug: es-aws-region-amazonaws-com20150101tagsremoval-post
+      responses:
+        200:
+          description: OK
+      tags:
+      - Tags
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

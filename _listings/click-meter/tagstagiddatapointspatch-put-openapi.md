@@ -235,6 +235,133 @@ paths:
       - TagId
       - Datapoints
       - Patch
+  /tags/{tagId}/groups:
+    delete:
+      summary: Delete the association of this tag with all groups
+      description: Delete the association of this tag with all groups.
+      operationId: deleteTagsTagGroups
+      x-api-path-slug: tagstagidgroups-delete
+      parameters:
+      - in: path
+        name: tagId
+        description: Id of the tag
+      responses:
+        200:
+          description: OK
+      tags:
+      - Tags
+      - TagId
+      - Groups
+    get:
+      summary: List of all the groups associated to the user filtered by this tag.
+      description: List of all the groups associated to the user filtered by this
+        tag..
+      operationId: getTagsTagGroups
+      x-api-path-slug: tagstagidgroups-get
+      parameters:
+      - in: query
+        name: createdAfter
+        description: Exclude groups created before this date (YYYYMMDD)
+      - in: query
+        name: createdBefore
+        description: Exclude groups created after this date (YYYYMMDD)
+      - in: query
+        name: limit
+        description: Maximum elements to retrieve
+      - in: query
+        name: offset
+        description: Where to start when retrieving elements
+      - in: query
+        name: status
+        description: Status of the datapoint
+      - in: path
+        name: tagId
+        description: Id of the tag
+      - in: query
+        name: textSearch
+        description: Filter fields by this pattern
+      responses:
+        200:
+          description: OK
+      tags:
+      - Tags
+      - TagId
+      - Groups
+  /tags/{tagId}/groups/count:
+    get:
+      summary: Count the groups associated to the user filtered by this tag
+      description: Count the groups associated to the user filtered by this tag.
+      operationId: getTagsTagGroupsCount
+      x-api-path-slug: tagstagidgroupscount-get
+      parameters:
+      - in: query
+        name: createdAfter
+        description: Exclude groups created before this date (YYYYMMDD)
+      - in: query
+        name: createdBefore
+        description: Exclude groups created after this date (YYYYMMDD)
+      - in: query
+        name: status
+        description: Status of the datapoint
+      - in: path
+        name: tagId
+        description: Id of the tag
+      - in: query
+        name: textSearch
+        description: Filter fields by this pattern
+      responses:
+        200:
+          description: OK
+      tags:
+      - Tags
+      - TagId
+      - Groups
+      - Count
+  /tags/{tagId}/groups/patch:
+    put:
+      summary: Associate/Deassociate a tag with a group
+      description: Associate/deassociate a tag with a group.
+      operationId: putTagsTagGroupsPatch
+      x-api-path-slug: tagstagidgroupspatch-put
+      parameters:
+      - in: body
+        name: data
+        description: The body patch
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: tagId
+        description: Id of the tag
+      responses:
+        200:
+          description: OK
+      tags:
+      - Tags
+      - TagId
+      - Groups
+      - Patch
+  /tags/{tagId}/name:
+    put:
+      summary: Fast patch a tag name
+      description: Fast patch a tag name.
+      operationId: putTagsTagName
+      x-api-path-slug: tagstagidname-put
+      parameters:
+      - in: body
+        name: data
+        description: The body patch
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: tagId
+        description: Id of the tag
+      responses:
+        200:
+          description: OK
+      tags:
+      - Tags
+      - TagId
+      - Name
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

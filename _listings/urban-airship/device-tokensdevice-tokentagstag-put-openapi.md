@@ -122,6 +122,33 @@ paths:
       - Token
       - Tags
       - Tag
+    delete:
+      summary: Delete Device Tokens Device Token Tags Tag
+      description: Removes a single tag from a device token.
+      operationId: device_tokens.device_token.tags.tag.delete
+      x-api-path-slug: device-tokensdevice-tokentagstag-delete
+      parameters:
+      - in: query
+        name: device_token
+        description: A specific device token
+      - in: path
+        name: device_token
+      - in: query
+        name: tag
+        description: Tags can be of any format you wish, but we recommend that they
+          be URL-safe in order to make less work for you
+      - in: path
+        name: tag
+      responses:
+        200:
+          description: OK
+      tags:
+      - Device
+      - Tokens
+      - Device
+      - Token
+      - Tags
+      - Tag
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -9,94 +9,106 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-
 x-kinRank: "8"
 x-alexaRank: "126"
 tags: Tags
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stack Exchange My Tags
-  x-api-slug: stack-exchange
+- name: Stack Exchange - My Tags
+  x-api-slug: metags-get
   description: "Returns the tags the user identified by the access_token passed is
     active in.\n \nThis method returns a list of tags."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
   humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2//me/tags
-  tags: Tags
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
+    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/metags-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/metags-get-openapi.md
-- name: Stack Exchange My Tags Top Answers
-  x-api-slug: stack-exchange
+- name: Stack Exchange - My Tags Top Answers
+  x-api-slug: metagstagstopanswers-get
   description: "Returns the top 30 answers the user associated with the given access_token
     has posted in response to questions with the given tags.\n \nThis method returns
     a list of answers."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
   humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2//me/tags/{tags}/top-answers
-  tags: Tags,Anwers
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
+    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/metagstagstopanswers-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/metagstagstopanswers-get-openapi.md
-- name: Stack Exchange My Tags Top Questions
-  x-api-slug: stack-exchange
+- name: Stack Exchange - My Tags Top Questions
+  x-api-slug: metagstagstopquestions-get
   description: "Returns the top 30 questions the user associated with the given access_token
     has posted in response to questions with the given tags.\n \nThis method returns
     a list of questions."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
   humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2//me/tags/{tags}/top-questions
-  tags: Tags,Questions
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
+    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/metagstagstopquestions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/metagstagstopquestions-get-openapi.md
-- name: Stack Exchange My Timeline
-  x-api-slug: stack-exchange
+- name: Stack Exchange - My Timeline
+  x-api-slug: metimeline-get
   description: "Returns a subset of the actions the user identified by the passed
     access_token has taken on the site.\n \nThis method returns a list of user timeline
     objects."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
   humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2//me/timeline
-  tags: Tags,Timeline
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
+    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/metimeline-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/metimeline-get-openapi.md
-- name: Stack Exchange My Top Answer Tags
-  x-api-slug: stack-exchange
+- name: Stack Exchange - My Top Answer Tags
+  x-api-slug: metopanswertags-get
   description: "Returns the user identified by access_token's top 30 tags by answer
     score.\n \nThis method returns a list of top tag objects."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
   humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2//me/top-answer-tags
-  tags: Tags,Anwers
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
+    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/metopanswertags-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/metopanswertags-get-openapi.md
-- name: Stack Exchange My Top Question Tags
-  x-api-slug: stack-exchange
+- name: Stack Exchange - My Top Question Tags
+  x-api-slug: metopquestiontags-get
   description: "Returns the user identified by access_token's top 30 tags by question
     score.\n \nThis method returns a list of top tag objects."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
   humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2//me/top-question-tags
-  tags: Tags,Questions
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
+    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/metopquestiontags-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/metopquestiontags-get-openapi.md
-- name: Stack Exchange Get Tags
-  x-api-slug: stack-exchange
+- name: Stack Exchange - Get Tags
+  x-api-slug: tags-get
   description: "Returns the tags found on a site.\n \nThe inname parameter lets a
     consumer filter down to tags that contain a certain substring. For example, inname=own
     would return both \"download\" and \"owner\" amongst others.\n \nThis method returns
@@ -107,15 +119,17 @@ apis:
     and todate."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
   humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2//tags
-  tags: Tags
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
+    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tags-get-openapi.md
-- name: Stack Exchange Get Tags Moderator Only
-  x-api-slug: stack-exchange
+- name: Stack Exchange - Get Tags Moderator Only
+  x-api-slug: tagsmoderatoronly-get
   description: "Returns the tags found on a site that only moderators can use.\n \nThe
     inname parameter lets a consumer filter down to tags that contain a certain substring.
     For example, inname=own would return both \"download\" and \"owner\" amongst others.\n
@@ -126,15 +140,17 @@ apis:
     using sort, min, max, fromdate, and todate."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
   humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2//tags/moderator-only
-  tags: Tags
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
+    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tagsmoderatoronly-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tagsmoderatoronly-get-openapi.md
-- name: Stack Exchange Get Tags Requred
-  x-api-slug: stack-exchange
+- name: Stack Exchange - Get Tags Requred
+  x-api-slug: tagsrequired-get
   description: "Returns the tags found on a site that fulfill required tag constraints
     on questions.\n \nThe inname parameter lets a consumer filter down to tags that
     contain a certain substring. For example, inname=own would return both \"download\"
@@ -145,15 +161,17 @@ apis:
     to create moderately complex queries using sort, min, max, fromdate, and todate."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
   humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2//tags/required
-  tags: Tags,Required
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
+    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tagsrequired-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tagsrequired-get-openapi.md
-- name: Stack Exchange Get Tags Synonyms
-  x-api-slug: stack-exchange
+- name: Stack Exchange - Get Tags Synonyms
+  x-api-slug: tagssynonyms-get
   description: "Returns all tag synonyms found a site.\n \nWhen searching for synonyms
     of specific tags, it is better to use /tags/{tags}/synonyms over this method.\n
     \nThe sorts accepted by this method operate on the follow fields of the tag_synonym
@@ -163,15 +181,17 @@ apis:
     method returns a list of tag_synonyms."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
   humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2//tags/synonyms
-  tags: Tags,Synonyms
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
+    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tagssynonyms-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tagssynonyms-get-openapi.md
-- name: Stack Exchange Get Tags FAQ
-  x-api-slug: stack-exchange
+- name: Stack Exchange - Get Tags FAQ
+  x-api-slug: tagstagsfaq-get
   description: "Returns the frequently asked questions for the given set of tags in
     {tags}.\n \nFor a question to be returned, it must have all the tags in {tags}
     and be considered \"frequently asked\". The exact algorithm for determining whether
@@ -180,15 +200,17 @@ apis:
     questions."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
   humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2//tags/{tags}/faq
-  tags: Tags,FAQ
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
+    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tagstagsfaq-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tagstagsfaq-get-openapi.md
-- name: Stack Exchange Get Tags Info
-  x-api-slug: stack-exchange
+- name: Stack Exchange - Get Tags Info
+  x-api-slug: tagstagsinfo-get
   description: "Returns tag objects representing the tags in {tags} found on the site.\n
     \nThis method diverges from the standard naming patterns to avoid to conflicting
     with existing methods, due to the free form nature of tag names.\n \nThis method
@@ -199,15 +221,17 @@ apis:
     max, fromdate, and todate."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
   humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2//tags/{tags}/info
-  tags: Tags,Information
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
+    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tagstagsinfo-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tagstagsinfo-get-openapi.md
-- name: Stack Exchange Get Tags Related
-  x-api-slug: stack-exchange
+- name: Stack Exchange - Get Tags Related
+  x-api-slug: tagstagsrelated-get
   description: "Returns the tags that are most related to those in {tags}.\n \nIncluding
     multiple tags in {tags} is equivalent to asking for \"tags related to tag #1 and
     tag #2\" not \"tags related to tag #1 or tag #2\".\n \ncount on tag objects returned
@@ -216,15 +240,17 @@ apis:
     a list of tags."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
   humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2//tags/{tags}/related
-  tags: Tags,Related
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
+    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tagstagsrelated-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tagstagsrelated-get-openapi.md
-- name: Stack Exchange Get Tags Synonyms
-  x-api-slug: stack-exchange
+- name: Stack Exchange - Get Tags Synonyms
+  x-api-slug: tagstagssynonyms-get
   description: "Gets all the synonyms that point to the tags identified in {tags}.
     If you're looking to discover all the tag synonyms on a site, use the /tags/synonyms
     methods instead of call this method on all tags.\n \n{tags} can contain up to
@@ -235,57 +261,65 @@ apis:
     min, max, fromdate, and todate.\n \nThis method returns a list of tag synonyms."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
   humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2//tags/{tags}/synonyms
-  tags: Tags,Synonyms
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
+    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tagstagssynonyms-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tagstagssynonyms-get-openapi.md
-- name: Stack Exchange Get Tags Wikis
-  x-api-slug: stack-exchange
+- name: Stack Exchange - Get Tags Wikis
+  x-api-slug: tagstagswikis-get
   description: "Returns the wikis that go with the given set of tags in {tags}.\n
     \nBe aware that not all tags have wikis.\n \n{tags} can contain up to 20 individual
     tags per request.\n \nThis method returns a list of tag wikis."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
   humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2//tags/{tags}/wikis
-  tags: Tags,Wikis
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
+    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tagstagswikis-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tagstagswikis-get-openapi.md
-- name: Stack Exchange Get Tags Top Answers
-  x-api-slug: stack-exchange
+- name: Stack Exchange - Get Tags Top Answers
+  x-api-slug: tagstagtopanswerersperiod-get
   description: "Returns the top 30 answerers active in a single tag, of either all-time
     or the last 30 days.\n \nThis is a view onto the data presented on the tag info
     page on the sites.\n \nThis method returns a list of tag score objects."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
   humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2//tags/{tag}/top-answerers/{period}
-  tags: Tags,Top Answers
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
+    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tagstagtopanswerersperiod-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tagstagtopanswerersperiod-get-openapi.md
-- name: Stack Exchange Get Tags Top Askers
-  x-api-slug: stack-exchange
+- name: Stack Exchange - Get Tags Top Askers
+  x-api-slug: tagstagtopaskersperiod-get
   description: "Returns the top 30 askers active in a single tag, of either all-time
     or the last 30 days.\n \nThis is a view onto the data presented on the tag info
     page on the sites.\n \nThis method returns a list of tag score objects."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
   humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2//tags/{tag}/top-askers/{period}
-  tags: Tags,Top Askers
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
+    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tagstagtopaskersperiod-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/tagstagtopaskersperiod-get-openapi.md
-- name: Stack Exchange Get User Tags
-  x-api-slug: stack-exchange
+- name: Stack Exchange - Get User Tags
+  x-api-slug: usersidstags-get
   description: "Returns the tags the users identified in {ids} have been active in.\n
     \nThis route corresponds roughly to user's stats tab, but does not include tag
     scores. A subset of tag scores are available (on a single user basis) in /users/{id}/top-answer-tags
@@ -298,15 +332,17 @@ apis:
     \nThis method returns a list of tags."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
   humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2//users/{ids}/tags
-  tags: Users,Tags
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
+    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/usersidstags-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/usersidstags-get-openapi.md
-- name: Stack Exchange Get User Tags Top Answers
-  x-api-slug: stack-exchange
+- name: Stack Exchange - Get User Tags Top Answers
+  x-api-slug: usersidtagstagstopanswers-get
   description: "Returns the top 30 answers a user has posted in response to questions
     with the given tags.\n \n{id} can contain a single id, to find it programatically
     look for user_id on user or shallow_user objects. {tags} is limited to 5 tags,
@@ -317,15 +353,17 @@ apis:
     and todate.\n \nThis method returns a list of answers."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
   humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2//users/{id}/tags/{tags}/top-answers
-  tags: Users,Tags,Answers
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
+    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/usersidtagstagstopanswers-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/usersidtagstagstopanswers-get-openapi.md
-- name: Stack Exchange Get User Tags Top Questions
-  x-api-slug: stack-exchange
+- name: Stack Exchange - Get User Tags Top Questions
+  x-api-slug: usersidtagstagstopquestions-get
   description: "Returns the top 30 questions a user has asked with the given tags.\n
     \n{id} can contain a single id, to find it programatically look for user_id on
     user or shallow_user objects. {tags} is limited to 5 tags, passing more will result
@@ -336,57 +374,20 @@ apis:
     method returns a list of questions."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
   humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2//users/{id}/tags/{tags}/top-questions
-  tags: Users,Tags,Questions
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
+    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/usersidtagstagstopquestions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/usersidtagstagstopquestions-get-openapi.md
-- name: Stack Exchange Get User Top Answers Tags
-  x-api-slug: stack-exchange
-  description: "Returns a single user's top tags by answer score.\n \nThis a subset
-    of the data returned on a user's tags tab.\n \n{id} can contain a single id, to
-    find it programatically look for user_id on user or shallow_user objects.\n \nThis
-    method returns a list of top_tag objects."
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
-  humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2//users/{id}/top-answer-tags
-  tags: Users,Top Answer Tags
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/usersidtopanswertags-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/usersidtopanswertags-get-openapi.md
-- name: Stack Exchange Get User Top Question Tags
-  x-api-slug: stack-exchange
-  description: "Returns a single user's top tags by question score.\n \nThis a subset
-    of the data returned on a user's tags tab.\n \n{id} can contain a single id, to
-    find it programatically look for user_id on user or shallow_user objects.\n \nThis
-    method returns a list of top_tag objects."
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
-  humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2//users/{id}/top-question-tags
-  tags: Users,Top Question Tags
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/usersidtopquestiontags-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/usersidtopquestiontags-get-openapi.md
-- name: Stack Exchange
-  x-api-slug: stack-exchange
-  description: After someone asks a question, members of the community propose answers.
-    Others vote on those answers. Very quickly, the answers with the most votes rise
-    to the top. You dont have to read through a lot of discussion to find the best
-    answer.    Like to...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
-  humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2
-  tags: Tags
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://square.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://stack.exchange.stack.network
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
 - type: x-base

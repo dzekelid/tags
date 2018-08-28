@@ -1,10 +1,8 @@
----
 swagger: "2.0"
 x-collection-name: Facebook
 x-complete: 1
 info:
   title: Facebook
-  description: connect-to-the-social-network-with-the-graph-api-
   version: 1.0.0
 host: graph.facebook.com
 basePath: /
@@ -85,4 +83,52 @@ paths:
       - Photo
       - Tags
       - User
----
+  /{application}/tagged:
+    get:
+      summary: Get Application Tagged
+      description: The photos, videos, and posts in which this application has been
+        tagged.
+      operationId: getApplicationTagged
+      x-api-path-slug: applicationtagged-get
+      parameters:
+      - in: path
+        name: application
+        description: Represents the ID of the application object
+      responses:
+        200:
+          description: OK
+      tags:
+      - Application
+      - Tagged
+  /{page}/tagged:
+    get:
+      summary: Get Page Tagged
+      description: The photos, videos, and posts in which this page has been tagged
+      operationId: getPageTagged
+      x-api-path-slug: pagetagged-get
+      parameters:
+      - in: path
+        name: page
+        description: Represents the ID of the page object
+      responses:
+        200:
+          description: OK
+      tags:
+      - Page
+      - Tagged
+  /{user}/tagged:
+    get:
+      summary: Get User Tagged
+      description: Posts the user is tagged in
+      operationId: getUserTagged
+      x-api-path-slug: usertagged-get
+      parameters:
+      - in: path
+        name: user
+        description: Represents the ID of the user object
+      responses:
+        200:
+          description: OK
+      tags:
+      - User
+      - Tagged

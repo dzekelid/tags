@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: The New York Times
 x-complete: 0
 info:
-  title: New York Times Times Tag
+  title: The New York Times Times Tag
   description: With the TimesTags API, you can mine the riches of the New York Times
     tag set. The TimesTags service matches your query to the controlled vocabularies
     that fuel NYTimes.com metadata. You supply a string of characters, and the service

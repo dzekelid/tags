@@ -14,52 +14,112 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Tags
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-inspector/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Inspector API List Tags For Resource
-  x-api-slug: aws-inspector-api
+- name: AWS Inspector API - List Tags For Resource
+  x-api-slug: actionlisttagsforresource-get
   description: Lists all tags associated with an assessment template.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png
   humanURL: https://aws.amazon.com/inspector/
-  baseURL: ://///?Action=ListTagsForResource
-  tags: Tags For Resources
+  baseURL: :///
+  tags: Amazon Web Services, Security, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-inspector/actionlisttagsforresource-get-openapi.md
-- name: AWS Inspector API Set Tags For Resource
-  x-api-slug: aws-inspector-api
+- name: AWS Inspector API - Set Tags For Resource
+  x-api-slug: actionsettagsforresource-get
   description: |-
     Sets tags (key and value pairs) to the assessment template that is specified by the
              ARN of the assessment template.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png
   humanURL: https://aws.amazon.com/inspector/
-  baseURL: ://///?Action=SetTagsForResource
-  tags: Tags For Resources
+  baseURL: :///
+  tags: Amazon Web Services, Security, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-inspector/actionsettagsforresource-get-openapi.md
-- name: AWS Inspector API
-  x-api-slug: aws-inspector-api
-  description: Amazon Inspector is an automated security assessment service that helps
-    improve the security and compliance of applications deployed on AWS. Amazon Inspector
-    automatically assesses applications for vulnerabilities or deviations from best
-    practices. After performing an assessment, Amazon Inspector produces a detailed
-    list of security findings prioritized by level of severity.To help you get started
-    quickly, Amazon Inspector includes a knowledge base of hundreds of rules mapped
-    to common security best practices and vulnerability definitions. Examples of built-in
-    rules include checking for remote root login being enabled, or vulnerable software
-    versions installed. These rules are regularly updated by AWS security researchers.
+- name: AWS Inspector API - List Tags For Resource
+  x-api-slug: actionlisttagsforresource-get
+  description: Lists all tags associated with an assessment template.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png
   humanURL: https://aws.amazon.com/inspector/
   baseURL: :///
-  tags: Tags
+  tags: Amazon Web Services, Security, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-inspector/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-inspector/actionlisttagsforresource-get-openapi.md
+- name: AWS Inspector API - Set Tags For Resource
+  x-api-slug: actionsettagsforresource-get
+  description: |-
+    Sets tags (key and value pairs) to the assessment template that is specified by the
+             ARN of the assessment template.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png
+  humanURL: https://aws.amazon.com/inspector/
+  baseURL: :///
+  tags: Amazon Web Services, Security, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-inspector/actionsettagsforresource-get-openapi.md
+- name: AWS Inspector API - List Tags For Resource
+  x-api-slug: actionlisttagsforresource-get
+  description: Lists all tags associated with an assessment template.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png
+  humanURL: https://aws.amazon.com/inspector/
+  baseURL: :///
+  tags: Amazon Web Services, Security, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-inspector/actionlisttagsforresource-get-openapi.md
+- name: AWS Inspector API - Set Tags For Resource
+  x-api-slug: actionsettagsforresource-get
+  description: |-
+    Sets tags (key and value pairs) to the assessment template that is specified by the
+             ARN of the assessment template.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png
+  humanURL: https://aws.amazon.com/inspector/
+  baseURL: :///
+  tags: Amazon Web Services, Security, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-inspector/actionsettagsforresource-get-openapi.md
+- name: AWS Inspector API - List Tags For Resource
+  x-api-slug: actionlisttagsforresource-get
+  description: Lists all tags associated with an assessment template.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png
+  humanURL: https://aws.amazon.com/inspector/
+  baseURL: :///
+  tags: Amazon Web Services, Security, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-inspector/actionlisttagsforresource-get-openapi.md
+- name: AWS Inspector API - Set Tags For Resource
+  x-api-slug: actionsettagsforresource-get
+  description: |-
+    Sets tags (key and value pairs) to the assessment template that is specified by the
+             ARN of the assessment template.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png
+  humanURL: https://aws.amazon.com/inspector/
+  baseURL: :///
+  tags: Amazon Web Services, Security, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-inspector/actionsettagsforresource-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.identity.and.access.management.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.inspector.stack.network
 - type: x-documentation
   url: http://docs.aws.amazon.com/inspector/latest/APIReference/
 - type: x-faq

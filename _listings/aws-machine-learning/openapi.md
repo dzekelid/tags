@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS Machine Learning
 x-complete: 1
@@ -62,4 +61,24 @@ paths:
       tags:
       - Machine Learning
       - Tags
----
+  /?Action=DescribeTags:
+    get:
+      summary: Describe Tags
+      description: Describes one or more of the tags for your Amazon ML object.
+      operationId: describeTags
+      x-api-path-slug: actiondescribetags-get
+      parameters:
+      - in: query
+        name: ResourceId
+        description: The ID of the ML object
+        type: string
+      - in: query
+        name: ResourceType
+        description: The type of the ML object
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Machine Learning
+      - Real Time

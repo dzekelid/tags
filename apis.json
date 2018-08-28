@@ -1,0 +1,1458 @@
+{
+	"name": "Streadata.io API Gallery - Tags",
+	"description": "This is a repository of tags APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/tags.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://tags.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Urban Airship",
+			"x-api-slug": "urban-airship",
+			"description": "A market-leading mobile app engagement, mobile analytics, mobile data integration and mobile wallet marketing solution.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg",
+			"humanURL": "http://urbanairship.com/",
+			"baseURL": "https://go.urbanairship.com//api/",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GitHub",
+			"x-api-slug": "github",
+			"description": "GitHub brings together the worlds largest community of developers to discover, share, and build better software. From open source projects to private team repositories, were your all-in-one platform for collaborative development.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png",
+			"humanURL": "https://github.com",
+			"baseURL": "https:///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/github/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Etsy",
+			"x-api-slug": "etsy",
+			"description": "Find handmade, vintage, and unique goods that express who you are.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg",
+			"humanURL": "http://www.etsy.com/",
+			"baseURL": "https://openapi.etsy.com//v2/private/",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/etsy/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Facebook",
+			"x-api-slug": "facebook",
+			"description": "Create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg",
+			"humanURL": "http:///business",
+			"baseURL": "https:///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/facebook/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "The Guardian",
+			"x-api-slug": "the-guardian",
+			"description": "The Guardian is a British national daily newspaper which has grown into a national paper associated with a complex organisational structure and an international multimedia and web presence. The Guardian provides API access to articles accessible by tag and section, and a suite of open source data and tools. The Guardian makes content accessible to increase traffic, brand awareness, and as a marketing vehicle, including partnership opportunities via platform program.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/the-guardian-logo.png",
+			"humanURL": "http://www.guardian.co.uk/open-platform",
+			"baseURL": "https:///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/the-guardian/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Pinboard",
+			"x-api-slug": "pinboard",
+			"description": "Pinboard is a bookmarking website for introverted people in a hurry. The focus of the site is less on socializing, and more on speed and utility. Pinboard tries to offer useful features without getting in your way. My highest priority is keeping your data safe over the long term.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/240-pinboard.jpg",
+			"humanURL": "http://pinboard.in",
+			"baseURL": "https://api.pinboard.in//v1",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/pinboard/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Stack Exchange",
+			"x-api-slug": "stack-exchange",
+			"description": "After someone asks a question, members of the community propose answers. Others vote on those answers. Very quickly, the answers with the most votes rise to the top. You dont have to read through a lot of discussion to find the best answer.    Like to...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg",
+			"humanURL": "http://stackexchange.com",
+			"baseURL": "https://api.stackexchange.com//2.2",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "7digital",
+			"x-api-slug": "7digital",
+			"description": "Welcome to 7digital!    Choose from over 30 million high quality tracks in our store; download, sync and play your music on the go.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/294-7digital.jpg",
+			"humanURL": "http://7digital.com",
+			"baseURL": "https://api.7digital.com/1.2/",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/7digital/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AngelList",
+			"x-api-slug": "angellist",
+			"description": "AngelList is where the world meets startups. Find a great startup job, invest in a startup, or raise money",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg",
+			"humanURL": "http://angel.co",
+			"baseURL": "https://api.angel.co//1/",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/angellist/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Zemanta",
+			"x-api-slug": "zemanta",
+			"description": "Zemanta is an omni-channel programmatic native DSP for media agencies to automate paid content promotion across 25+ programmatic networks & exchanges.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/539-zemanta.jpg",
+			"humanURL": "http://www.zemanta.com/",
+			"baseURL": "https:///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/zemanta/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Fluxiom",
+			"x-api-slug": "fluxiom",
+			"description": "Fluxiom offers seamless online file management in the cloud. Keep your files private, share them with a select audience or broadcast them to the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/594-fluxiom.jpg",
+			"humanURL": "http://fluxiom.com",
+			"baseURL": "https://{subdomain}.fluxiom.com//api/{format}",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/fluxiom/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mailgun",
+			"x-api-slug": "mailgun",
+			"description": "Mailgun provides a web service for integrating email inboxes into apps. Providing APIs for sending, receiving, and storing APis, including tools for managing delivery, real-time integration, organizing, routing, and tracking on emails. Malign provides a free trial to learn about services, and pay as you go, unit based pricing to continue from there, including volume pricing for increased usage.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/612-mail_gun.jpg",
+			"humanURL": "http://mailgun.net",
+			"baseURL": "https://api.mailgun.net/v2/",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/mailgun/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Postmark",
+			"x-api-slug": "postmark",
+			"description": "Trusted by thousands of developers, Postmark is a fast and reliable transactional email service. Send with Postmark to ensure your transactional emails get to the inbox on time, every time.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg",
+			"humanURL": "http://postmarkapp.com",
+			"baseURL": "https://api.postmarkapp.com//",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/postmark/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Atlassian",
+			"x-api-slug": "atlassian",
+			"description": "Millions of users globally rely on Atlassian products every day for improving software development, project management, collaboration, and code quality.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg",
+			"humanURL": "http://atlassian.com/",
+			"baseURL": "https:////",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/atlassian/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpenRouteService",
+			"x-api-slug": "openrouteservice",
+			"description": "OpenStreetMap is the free wiki world map.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/882-openrouteservice.jpg",
+			"humanURL": "http://wiki.openstreetmap.org/wiki/OpenRouteService#ORS_.22API.22",
+			"baseURL": "https://cv.ap.org//",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/openrouteservice/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Jinni",
+			"x-api-slug": "jinni",
+			"description": "For the past seven years the company has been providing a robust discovery service to pay TV and OTT providers and also offersa targeted advertising taste-based audience buying solution for entertainment brands.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1081-jinni.jpg",
+			"humanURL": "http://www.jinni.com/api.html",
+			"baseURL": "https:///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/jinni/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plivo",
+			"x-api-slug": "plivo",
+			"description": "Voice & SMS API Platform: Plivo enables businesses and developers to tap into powerful Voice and SMS capabilities without carrier lock-in.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg",
+			"humanURL": "http:///account",
+			"baseURL": "https:///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/plivo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpenStreetMap",
+			"x-api-slug": "openstreetmap",
+			"description": "OpenStreetMap is the free wiki world map.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2017-openstreetmap.jpg",
+			"humanURL": "http://www.openstreetmap.org/",
+			"baseURL": "https:// http:///nominatim.openstreetmap.org",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/openstreetmap/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "API Science",
+			"x-api-slug": "api-science",
+			"description": "Traditional monitoring services were designed long before APIs became core to modern applications. API Science is designed specifically for monitoring APIs. Sure, we understand REST, JSON, OAuth, XML. No problem.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png",
+			"humanURL": "http://apiscience.com",
+			"baseURL": "https:///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/api-science/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Data.Gov",
+			"x-api-slug": "data-gov",
+			"description": "data.gov is a U.S. government website launched in late May 2009 by the then Federal Chief Information Officer (CIO) of the United States, Vivek Kundra. According to its website, The purpose of data.gov is to increase public access to high value, machine readable datasets generated by the Executive Branch of the Federal Government. The site seeks to become a repository for all the information the government collects. The site would publish to the public any data that is not private or restricted for national security reasons.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png",
+			"humanURL": "http://data.gov/",
+			"baseURL": "https://catalog.data.gov//api/3/",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/data-gov/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Flickr",
+			"x-api-slug": "flickr",
+			"description": "Flickr (pronounced flicker) is an image hosting and video hosting website, and web services suite that was created by Ludicorp in 2004 and acquired by Yahoo in 2005. In addition to being a popular website for users to share and embed personal photographs, and effectively an online community, the service is widely used by photo researchers and by bloggers to host images that they embed in blogs and social media.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg",
+			"humanURL": "http://www.flickr.com/",
+			"baseURL": "https://api.flickr.com//services/",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/flickr/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "DigitalOcean",
+			"x-api-slug": "digitalocean",
+			"description": "DigitalOcean is a simple and fast cloud hosting service built for developers. Customers can create a cloud server in 55 seconds, and pricing plans start at only $5 per month for 512MB of RAM, 20GB SSD, 1 CPU, and 1TB Transfer. Featuring a 99.99% Uptime SLA, DigitalOcean has servers located in New York, San Francisco, and Amsterdam. The DigitalOcean control panel interface is simple and intuitive, which power users can replicate on a larger scale with the company&rsquo;s API. DigitalOcean uses KVM virtualization and additionally hosts a library of helpful walkthroughs and tutorials that cover server configuration and optimization.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/DO_Logo_Horizontal_Black-3500c326.png",
+			"humanURL": "https://www.digitalocean.com",
+			"baseURL": "https://example.com//",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/digitalocean/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Knoema",
+			"x-api-slug": "knoema",
+			"description": "Knoema is the free to use public and open data platform for users with interests in statistics and data analysis, visual storytelling and making infographics and data-driven presentations",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/knoema-logo.jpg",
+			"humanURL": "https://knoema.com",
+			"baseURL": "http://knoema.com//api/1.0",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/knoema/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Watchful",
+			"x-api-slug": "watchful",
+			"description": "Watchful resulted from the need for a single, unified dashboard to easily monitor all of the web sites in our portfolios. After years of evolution, our solution has matured into a simple, complete and professional service.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/watchful-li-logo.jpg",
+			"humanURL": "http://watchful.li",
+			"baseURL": "https://watchful.li//api/v1",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/watchful/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "EhrScape",
+			"x-api-slug": "ehrscape",
+			"description": "Health app development shouldnt be harder than other verticals. EhrScape is all about making awesome healthcare apps easy to build and integrate into your environment. Healthcare computing that just works. EhrScape handles all the hard bits, including detailed clinical models, semantic interoperability, vendor independent data storage, health data query and more. Our mission is to empower you to build amazing healthcare apps and services. Welcome aboard. Were just getting started and weve got very big plans!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/EHRScape-Logo.png",
+			"humanURL": "https://www.ehrscape.com",
+			"baseURL": "http://rest.ehrscape.com//terminology-adapter/rest",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/ehrscape/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "The New York Times",
+			"x-api-slug": "the-new-york-times",
+			"description": "The New York Times: Find breaking news, multimedia, reviews & opinion on Washington, business, sports, movies, travel, books, jobs, education, real estate, cars & more at nytimes.com.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18820-new-york-times.jpg",
+			"humanURL": "http://nytimes.com",
+			"baseURL": "https://api.nytimes.com//svc",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/the-new-york-times/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Shopify",
+			"x-api-slug": "shopify",
+			"description": "Shopify is a commerce platform that allows anyone to easily sell online at a retail location and everywhere in between. It offers a professional online storefront, a payment solution to accept credit cards, and the Shopify POS application to power retail sales.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png",
+			"humanURL": "https://www.shopify.com/",
+			"baseURL": "https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/shopify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bitbucket",
+			"x-api-slug": "bitbucket",
+			"description": "Collaborate on code with inline comments and pull requests. Manage and share your Git repositories to build and ship software, as a team.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg",
+			"humanURL": "http://bitbucket.org",
+			"baseURL": "https://api.bitbucket.org//2.0",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/bitbucket/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpenDNS",
+			"x-api-slug": "opendns",
+			"description": "OpenDNS was founded in 2006 and acquired by Cisco in 2015. Today, more than 12,000 business worldwide rely on our enterprise security products. Cisco Umbrella is a cloud security platform that provides the first line of defense against threats on the i...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20022-opendns.jpg",
+			"humanURL": "https://www.opendns.com/",
+			"baseURL": "https:///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/opendns/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Hewlett Packard Enterprise (HPE)",
+			"x-api-slug": "hewlett-packard-enterprise-hpe",
+			"description": "We help customers use technology to slash the time it takes to turn ideas into value. In turn, they transform industries, markets and lives. Some of our customers run traditional IT environments. Most are transitioning to a secure, cloud-enabled, mobile-friendly infrastructure. Many rely on a combination of both. Wherever they are in that journey, we provide the technology and solutions to help them succeed.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png",
+			"humanURL": "http://HPE.com",
+			"baseURL": "https://deic02-hpe.hpeonesphere.com//rest",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/hewlett-packard-enterprise-hpe/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Datadog",
+			"x-api-slug": "datadog",
+			"description": "See inside any stack, any app, at any scale, anywhere.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg",
+			"humanURL": "https://www.datadoghq.com/",
+			"baseURL": "https:///api/v1/",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/datadog/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "US Digital Registry",
+			"x-api-slug": "us-digital-registry",
+			"description": "Whether for access to emergency, financial or education public services, users need to trust they are engaging with official U.S. government digital accounts. The U.S. Digital Registry serves as the authoritative resource for agencies, citizens and developers to confirm the official status of social media and public-facing collaboration accounts, mobile apps and mobile websites, and help prevent exploitation from unofficial sources, phishing scams or malicious entities.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/digital-gov-logo.jpeg",
+			"humanURL": "https://usdigitalregistry.digitalgov.gov",
+			"baseURL": "https://usdigitalregistry.digitalgov.gov//api/v1/",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/us-digital-registry/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS S3",
+			"x-api-slug": "aws-s3",
+			"description": "Amazon Simple Storage Service (Amazon S3) is object storage with a simple web service interface to store and retrieve any amount of data from anywhere on the web. It is designed to deliver 99.999999999% durability, and scale past trillions of objects worldwide.Customers use S3 as a bulk repository, or data lake, for analytics; backup &amp; recovery; disaster recovery; and serverless computing. Many cloud-native applications even use S3 as primary storage.Its simple to move large volumes of data into or out of S3 with Amazonscloud data migrationoptions. Once data is stored in Amazon S3, it can be automatically tiered into lower cost, longer-termcloud storageclasses like S3 Standard - Infrequent Access and Amazon Glacier for archiving.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonS3.png",
+			"humanURL": "https://aws.amazon.com/s3/",
+			"baseURL": "https:////",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-s3/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Storage Gateway Service",
+			"x-api-slug": "aws-storage-gateway-service",
+			"description": "The AWS Storage Gateway service seamlessly enables hybrid storage between on-premises storage environments andthe AWS Cloud. It combines a multi-protocol storage appliance with highly efficient network connectivity toAmazon cloud storageservices, delivering local performance with virtually unlimited scale. Customers use it in remote offices and datacenters for hybrid cloud workloads, backup and restore, archive, disaster recovery, and tiered storage.The Storage Gateway virtual appliance connects seamlessly to your local infrastructure as a file server, as a volume, or as a virtual tape library (VTL). This seamless connection makes it simple for organizations to augment existing on-premises storage investments with the high scalability, extreme durability and low cost of cloud storage.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png",
+			"humanURL": "https://aws.amazon.com/storagegateway/",
+			"baseURL": ":///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-storage-gateway-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS RDS",
+			"x-api-slug": "aws-rds",
+			"description": "Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale arelational databasein the cloud. It provides cost-efficient and resizable capacity while managing time-consuming database administration tasks, freeing you up to focus on your applications and business. Amazon RDS provides you six familiar database engines to choose from, includingAmazon Aurora,PostgreSQL,MySQL,MariaDB,Oracle, andMicrosoft SQL Server.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png",
+			"humanURL": "https://aws.amazon.com/rds/",
+			"baseURL": ":///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-rds/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS ElastiCache",
+			"x-api-slug": "aws-elasticache",
+			"description": "Amazon ElastiCache is a web service that makes it easy to deploy, operate, and scale an in-memory data store or cache in the cloud. The service improves the performance of web applications by allowing you to retrieve information from fast, managed, in-memory data stores, instead of relying entirely on slower disk-based databases. Amazon ElastiCache automatically detects and replaces failed nodes, reducing the overhead associated with self-managed infrastructures and provides a resilient system that mitigates the risk of overloaded databases, which slow website and application load times. Through integration with Amazon CloudWatch, Amazon ElastiCache provides enhanced visibility into key performance metrics associated with your Redis or Memcached nodes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonElasticCache.png",
+			"humanURL": "https://aws.amazon.com/elasticache/",
+			"baseURL": ":///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-elasticache/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Redshift",
+			"x-api-slug": "aws-redshift",
+			"description": "Amazon Redshift is a fast, fully managed, petabyte-scaledata warehousethat makes it simple and cost-effective to analyze all your data using your existing business intelligence tools. Start small for $0.25 per hour with no commitments and scale to petabytes for $1,000 per terabyte per year, less than a tenth the cost of traditional solutions. Customers typically see 3x compression, reducing their costs to $333 per uncompressed terabyte per year.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png",
+			"humanURL": "https://aws.amazon.com/redshift/",
+			"baseURL": ":///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-redshift/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Database Migration Service",
+			"x-api-slug": "aws-database-migration-service",
+			"description": "AWS Database Migration Service helps you migrate databases to AWS easily and securely. The source database remains fully operational during the migration, minimizing downtime to applications that rely on the database. The AWS Database Migration Service can migrate your data to and from most widely used commercial and open-source databases. The service supports homogenous migrations such as Oracle to Oracle, as well as heterogeneous migrations between different database platforms, such as Oracle to Amazon Aurora or Microsoft SQL Server to MySQL. It also allows you to stream data to Amazon Redshift from any of the supported sources including Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle, SAP ASE and SQL Server, enabling consolidation and easy analysis of data in the petabyte-scale data warehouse. AWS Database Migration Service can also be used for continuous data replication with high-availability.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AWSDatabaseMigrationService.png",
+			"humanURL": "https://aws.amazon.com/dms/",
+			"baseURL": ":///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-database-migration-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS CloudFront",
+			"x-api-slug": "aws-cloudfront",
+			"description": "Amazon CloudFront is a global content delivery network (CDN) service that accelerates delivery of your websites, APIs, video content or other web assets. It integrates with other Amazon Web Services products to give developers and businesses an easy way to accelerate content to end users with no minimum usage commitments.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonCloudFront.png",
+			"humanURL": "https://aws.amazon.com/cloudfront/",
+			"baseURL": ":///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-cloudfront/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Direct Connect",
+			"x-api-slug": "aws-direct-connect",
+			"description": "AWS Direct Connect makes it easy to establish a dedicated network connection from your premises to AWS. Using AWS Direct Connect, you can establish private connectivity between AWS and your datacenter, office, or colocation environment, which in many cases can reduce your network costs, increase bandwidth throughput, and provide a more consistent network experience than Internet-based connections.AWS Direct Connect lets you establish a dedicated network connection between your network and one of the AWS Direct Connect locations. Using industry standard 802.1q VLANs, this dedicated connection can be partitioned into multiple virtual interfaces. This allows you to use the same connection to access public resources such as objects stored in Amazon S3 using public IP address space, and private resources such as Amazon EC2 instances running within anAmazon Virtual Private Cloud (VPC)using private IP space, while maintaining network separation between the public and private environments. Virtual interfaces can be reconfigured at any time to meet your changing needs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AWSDirectConnect.png",
+			"humanURL": "https://aws.amazon.com/directconnect/",
+			"baseURL": ":///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-direct-connect/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS CodeDeploy",
+			"x-api-slug": "aws-codedeploy",
+			"description": "AWS CodeDeploy is a service that automates code deployments to any instance, including Amazon EC2 instances and instances running on-premises. AWS CodeDeploy makes it easier for you to rapidly release new features, helps you avoid downtime during application deployment, and handles the complexity of updating your applications. You can use AWS CodeDeploy to automate software deployments, eliminating the need for error-prone manual operations, and the service scales with your infrastructure so you can easily deploy to one instance or thousands.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-codedeploy.png",
+			"humanURL": "https://aws.amazon.com/codedeploy/",
+			"baseURL": ":///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-codedeploy/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS EC2 Systems Manager",
+			"x-api-slug": "aws-ec2-systems-manager",
+			"description": "Amazon EC2 Systems Manager is a management service that helps you automatically collect software inventory, apply OS patches, create system images, and configure Windows and Linux operating systems. These capabilities help you define and track system configurations, prevent drift, and maintain software compliance of your EC2 and on-premises configurations. By providing a management approach that is designed for the scale and agility of the cloud but extends into your on-premises data center, EC2 Systems Manager makes it easier for you to seamlessly bridge your existing infrastructure with AWS.EC2 Systems Manager is easy to use. Simply access EC2 Systems Manager from the EC2 Management Console, select the instances you want to manage, and define the management tasks you want to perform. EC2 Systems Manager is available now at no cost to manage both your EC2 and on-premises resources.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png",
+			"humanURL": "https://aws.amazon.com/ec2/systems-manager/",
+			"baseURL": ":///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-ec2-systems-manager/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Inspector",
+			"x-api-slug": "aws-inspector",
+			"description": "Amazon Inspector is an automated security assessment service that helps improve the security and compliance of applications deployed on AWS. Amazon Inspector automatically assesses applications for vulnerabilities or deviations from best practices. After performing an assessment, Amazon Inspector produces a detailed list of security findings prioritized by level of severity.To help you get started quickly, Amazon Inspector includes a knowledge base of hundreds of rules mapped to common security best practices and vulnerability definitions. Examples of built-in rules include checking for remote root login being enabled, or vulnerable software versions installed. These rules are regularly updated by AWS security researchers.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png",
+			"humanURL": "https://aws.amazon.com/inspector/",
+			"baseURL": ":///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-inspector/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Certificate Manager",
+			"x-api-slug": "aws-certificate-manager",
+			"description": "AWS Certificate Manager is a service that lets you easily provision, manage, and deploy Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificates for use with AWS services. SSL/TLS certificates are used to secure network communications and establish the identity of websites over the Internet. AWS Certificate Manager removes the time-consuming manual process of purchasing, uploading, and renewing SSL/TLS certificates. With AWS Certificate Manager, you can quickly request a certificate, deploy it on AWS resources such as Elastic Load Balancers or Amazon CloudFront distributions, and let AWS Certificate Manager handle certificate renewals. SSL/TLS certificates provisioned through AWS Certificate Manager are free. You pay only for the AWS resources you create to run your application.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_ACM_certificate-manager.png",
+			"humanURL": "https://aws.amazon.com/certificate-manager/",
+			"baseURL": ":///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-certificate-manager/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS CloudHSM",
+			"x-api-slug": "aws-cloudhsm",
+			"description": "The AWS CloudHSM service helps you meet corporate, contractual and regulatory compliance requirements for data security by using dedicated Hardware Security Module (HSM) appliances within the AWS cloud. With CloudHSM, you control the encryption keys and cryptographic operations performed by the HSM.AWS and AWS Marketplace partners offer a variety of solutions for protecting sensitive data within the AWS platform, but for applications and data subject to rigorous contractual or regulatory requirements for managing cryptographic keys, additional protection is sometimes necessary. Until now, your only option was to store the sensitive data (or the encryption keys protecting the sensitive data) in your on-premises datacenters. Unfortunately, this either prevented you from migrating these applications to the cloud or significantly slowed their performance. The AWS CloudHSM service allows you to protect your encryption keys within HSMs designed and validated to government standards for secure key management. You can securely generate, store, and manage the cryptographic keys used for data encryption such that they are accessible only by you. AWS CloudHSM helps you comply with strict key management requirements without sacrificing application performance.The AWS CloudHSM service works with Amazon Virtual Private Cloud (VPC). CloudHSM instances are provisioned inside your VPC with an IP address that you specify, providing simple and private network connectivity to your Amazon Elastic Compute Cloud (EC2) instances. Placing CloudHSM instances near your EC2 instances decreases network latency, which can improve application performance. AWS provides dedicated and exclusive (single tenant) access to CloudHSM instances, isolated from other AWS customers. Available in multiple Regions and Availability Zones (AZs), AWS CloudHSM allows you to add secure and durable key storage to your applications.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSCloudHSM.png",
+			"humanURL": "https://aws.amazon.com/cloudhsm/",
+			"baseURL": ":///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-cloudhsm/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Directory Service",
+			"x-api-slug": "aws-directory-service",
+			"description": "AWS Directory Service for Microsoft Active Directory (Enterprise Edition), also known as AWS Microsoft AD, enables your directory-aware workloads and AWS resources to use managed Active Directory in the AWS Cloud. The Microsoft AD service is built on actual Microsoft Active Directory and does not require you to synchronize or replicate data from your existing Active Directory to the cloud. You can use standard Active Directory administration tools and take advantage of built-in Active Directory features such as Group Policy, trusts, and single sign-on. With Microsoft AD, you can easily joinAmazon EC2andAmazon RDS for SQL Serverinstances to a domain, and useAWS Enterprise IT applicationssuch asAmazon WorkSpaceswith Active Directory users and groups.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSDirectoryService.png",
+			"humanURL": "https://aws.amazon.com/directoryservice/",
+			"baseURL": ":///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-directory-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Elastic MapReduce",
+			"x-api-slug": "aws-elastic-mapreduce",
+			"description": "Amazon EMR provides a managed Hadoop framework that makes it easy, fast, and cost-effective to process vast amounts of data across dynamically scalable Amazon EC2 instances. You can also run other popular distributed frameworks such as Apache Spark, HBase, Presto, and Flink in Amazon EMR, and interact with data in other AWS data stores such as Amazon S3 and Amazon DynamoDB.Amazon EMR securely and reliably handles a broad set of big data use cases, including log analysis, web indexing, data transformations (ETL), machine learning, financial analysis, scientific simulation, and bioinformatics.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonEMR.png",
+			"humanURL": "https://aws.amazon.com/emr/",
+			"baseURL": ":///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-elastic-mapreduce/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS CloudSearch",
+			"x-api-slug": "aws-cloudsearch",
+			"description": "Amazon CloudSearch is a managed service in the AWS Cloud that makes it simple and cost-effective to set up, manage, and scale a search solution for your website or application.Amazon CloudSearch supports 34 languages and popular search features such as highlighting, autocomplete, and geospatial search. For more information, see Benefits.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonCloudSearch.png",
+			"humanURL": "https://aws.amazon.com/cloudsearch/",
+			"baseURL": "https:///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-cloudsearch/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Elasticsearch Service",
+			"x-api-slug": "aws-elasticsearch-service",
+			"description": "Amazon Elasticsearch Service makes it easy to deploy, operate, and scale Elasticsearch for log analytics, full text search, application monitoring, and more. Amazon Elasticsearch Service is a fully managed service that delivers Elasticsearch&rsquo;s easy-to-use APIs and real-time capabilities along with the availability, scalability, and security required by production workloads. The service offers built-in integrations with Kibana, Logstash, and AWS services including Amazon Kinesis Firehose, AWS Lambda, and Amazon CloudWatch so that you can go from raw data to actionable insights quickly.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png",
+			"humanURL": "https://aws.amazon.com/elasticsearch-service/",
+			"baseURL": ":///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-elasticsearch-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Data Pipeline",
+			"x-api-slug": "aws-data-pipeline",
+			"description": "AWS Data Pipeline is a web service that helps you reliably process and move data between different AWS compute and storage services, as well as on-premise data sources, at specified intervals. With AWS Data Pipeline, you can regularly access your data where it&rsquo;s stored, transform and process it at scale, and efficiently transfer the results to AWS services such as Amazon S3, Amazon RDS, Amazon DynamoDB, and Amazon EMR.AWS Data Pipeline helps you easily create complex data processing workloads that are fault tolerant, repeatable, and highly available. You don&rsquo;t have to worry about ensuring resource availability, managing inter-task dependencies, retrying transient failures or timeouts in individual tasks, or creating a failure notification system. AWS Data Pipeline also allows you to move and process data that was previously locked up in on-premise data silos.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png",
+			"humanURL": "https://aws.amazon.com/datapipeline/",
+			"baseURL": ":///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-data-pipeline/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Machine Learning",
+			"x-api-slug": "aws-machine-learning",
+			"description": "Amazon Machine Learning is a service that makes it easy for developers of all skill levels to use machine learning technology. Amazon Machine Learning provides visualization tools and wizards that guide you through the process of creating machine learning (ML) models without having to learn complex ML algorithms and technology. Once your models are ready, Amazon Machine Learning makes it easy to obtain predictions for your application using simple APIs, without having to implement custom prediction generation code, or manage any infrastructure.Amazon Machine Learning is based on the same proven, highly scalable, ML technology used for years by Amazon&rsquo;s internal data scientist community. The service uses powerful algorithms to create ML models by finding patterns in your existing data. Then, Amazon Machine Learning uses these models to process new data and generate predictions for your application.Amazon Machine Learning is highly scalable and can generate billions of predictions daily, and serve those predictions in real-time and at high throughput. With Amazon Machine Learning, there is no upfront hardware or software investment, and you pay as you go, so you can start small and scale as your application grows.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png",
+			"humanURL": "https://aws.amazon.com/machine-learning/",
+			"baseURL": ":///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-machine-learning/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS WorkSpaces",
+			"x-api-slug": "aws-workspaces",
+			"description": "Amazon WorkSpaces is a fully managed, secure desktop computing service which runs on the AWS cloud. Amazon WorkSpaces allows you to easily provision cloud-based virtual desktops and provide your users access to the documents, applications, and resources they need from any supported device, including Windows and Mac computers, Chromebooks, iPads, Fire tablets, Android tablets, and Chrome and Firefox web browsers. With just a few clicks in the AWS Management Console, you can deploy high-quality cloud desktops for any number of users. With Amazon WorkSpaces, you pay either monthly or hourly just for the Amazon WorkSpaces you launch, which helps you save money when compared to traditional desktops and on-premises Virtual Desktop Infrastructure (VDI) solutions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkSpaces.png",
+			"humanURL": "https://aws.amazon.com/workspaces/",
+			"baseURL": ":///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-workspaces/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS EC2",
+			"x-api-slug": "aws-ec2",
+			"description": "Amazon Elastic Compute Cloud is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2s simple web service interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon&rsquo;s proven computing environment. Amazon EC2 reduces the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, both up and down, as your computing requirements change. Amazon EC2 changes the economics of computing by allowing you to pay only for capacity that you actually use. Amazon EC2 provides developers the tools to build failure resilient applications and isolate themselves from common failure scenarios.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png",
+			"humanURL": "https://aws.amazon.com/ec2/",
+			"baseURL": ":///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-ec2/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Auto Scaling",
+			"x-api-slug": "aws-auto-scaling",
+			"description": "Auto Scaling helps you maintain application availability and allows you to scale yourAmazon EC2capacity up or down automatically according to conditions you define. You can use Auto Scaling to help ensure that you are running your desired number of Amazon EC2 instances. Auto Scaling can also automatically increase the number of Amazon EC2 instances during demand spikes to maintain performance and decrease capacity during lulls to reduce costs. Auto Scaling is well suited both to applications that have stable demand patterns or that experience hourly, daily, or weekly variability in usage.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png",
+			"humanURL": "https://aws.amazon.com/autoscaling/",
+			"baseURL": ":///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-auto-scaling/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Elastic Load Balancing",
+			"x-api-slug": "aws-elastic-load-balancing",
+			"description": "Elastic Load Balancing automatically distributes incoming application traffic across multiple Amazon EC2 instances. It enables you to achieve fault tolerance in your applications, seamlessly providing the required amount of load balancing capacity needed to route application traffic.Elastic Load Balancing offers two types of load balancers that both feature high availability, automatic scaling, and robust security. These include theClassic Load Balancerthat routes traffic based on either application or network level information, and theApplication Load Balancerthat routes traffic based on advanced application level information that includes the content of the request. The Classic Load Balancer is ideal for simple load balancing of traffic across multiple EC2 instances, while the Application Load Balancer is ideal for applications needing advanced routing capabilities, microservices, and container-based architectures. Application Load Balancer offers ability to route traffic to multiple services or load balance across multiple ports on the same EC2 instance.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_ElasticLoadBalancing.png",
+			"humanURL": "https://aws.amazon.com/elasticloadbalancing/",
+			"baseURL": ":///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-elastic-load-balancing/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Route 53",
+			"x-api-slug": "aws-route-53",
+			"description": "Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS) web service. It is designed to give developers and businesses an extremely reliable and cost effective way to route end users to Internet applications by translating names like www.example.com into the numeric IP addresses like 192.0.2.1 that computers use to connect to each other. Amazon Route 53 is fully compliant with IPv6 as well.Amazon Route 53 effectively connects user requests to infrastructure running in AWS &ndash; such as Amazon EC2 instances, Elastic Load Balancing load balancers, or Amazon S3 buckets &ndash; and can also be used to route users to infrastructure outside of AWS. You can use Amazon Route 53 to configure DNS health checks to route traffic to healthy endpoints or to independently monitor the health of your application and its endpoints. Amazon Route 53 Traffic Flow makes it easy for you to manage traffic globally through a variety of routing types, including Latency Based Routing, Geo DNS, and Weighted Round Robin&mdash;all of which can be combined with DNS Failover in order to enable a variety of low-latency, fault-tolerant architectures. Using Amazon Route 53 Traffic Flow&rsquo;s simple visual editor, you can easily manage how your end-users are routed to your application&rsquo;s endpoints&mdash;whether in a single AWS region or distributed around the globe. Amazon Route 53 also offers Domain Name Registration &ndash; you can purchase and manage domain names such as example.com and Amazon Route 53 will automatically configure DNS settings for your domains.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png",
+			"humanURL": "https://aws.amazon.com/route53/",
+			"baseURL": ":///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-route-53/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Sustainable Facilities Tool API",
+			"x-api-slug": "sustainable-facilities-tool-api",
+			"description": "Our core API allows developers to interact with the Sustainable Facilities Tool programmatically. Its designed for public use and to be easily integrated into other applications.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sustainable-facilities-mobile_504b7.png",
+			"humanURL": "https://sftool.gov/",
+			"baseURL": "https://api.data.gov//sftool/v1/",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/sustainable-facilities-tool-api/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Tag Manager",
+			"x-api-slug": "google-tag-manager",
+			"description": "Deploy and update measurement tags on your websites and mobile apps without major code changes and app releases. Use Google Tag Manager to manage tags (such as tracking and marketing optimization JavaScript tags) on your site. Without editing your site code, you use GTM user interface to add and update AdWords, Google Analytics, Floodlight, and non-Google tags. This reduces errors and allows you to to deploy tags on your site quickly.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/googl_tag_manager_gplus-250.png",
+			"humanURL": "https://developers.google.com/tag-manager/",
+			"baseURL": "://www.googleapis.com//tagmanager/v1",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/google-tag-manager/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Resource Manager",
+			"x-api-slug": "azure-resource-manager",
+			"description": "Azure Resource Manager enables you to deploy and manage the infrastructure for your Azure solutions. You organize related resources in resource groups, and deploy your resources with JSON templates. For an introduction to deploying and managing resources with Resource Manager, see Azure Resource Manager overview.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-manager.png",
+			"humanURL": "https://docs.microsoft.com/en-us/rest/api/resources/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/azure-resource-manager/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Intrinio",
+			"x-api-slug": "intrinio",
+			"description": "Intelligent Data, On Demand. The financial data platform for developers, investors, students, and educators, with over 200 feeds including real-time, intraday, EOD, and international financial data available via REST API, WebSocket, CSV, Excel, and Goo...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/intrinio-logo-data-intelligence-on-demand.png",
+			"humanURL": "http://www.intrinio.com",
+			"baseURL": "https:///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/intrinio/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Entertainment Express",
+			"x-api-slug": "entertainment-express",
+			"description": "Internet Video Archive (IVA) is a leading entertainment data company providing metadata, images and trailers/clips, for movie and TV content. With the launch of its award-winning Entertainment Express APIs, clients can easily access everything they need to create engaging content discovery experiences. By using Entertainment Express, clients can also connect to other services like movie showtimes and ticketing, content recommendations, content availability and TV channel line-ups. With over a million titles, episodes and over 150,000 videos available, IVA makes it easy for developers to integrate all the services they need at a very affordable price.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png",
+			"humanURL": "https://www.internetvideoarchive.com/",
+			"baseURL": "https://ee.iva-api.com//",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/entertainment-express/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PayRun",
+			"x-api-slug": "payrun",
+			"description": "An open, scalable, transparent and HMRC accredited payroll API. Put the power of payroll into your application today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg",
+			"humanURL": "http://www.payrun.io",
+			"baseURL": "https://api.test.payrun.io//",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/payrun/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Ship Station",
+			"x-api-slug": "ship-station",
+			"description": "ShipStation is a web-based shipping solution that streamlines the order fulfillment process for your online business. ShipStation consolidates orders from over 70 ecommerce channels, creates shipping labels, packing slips, and pick lists in batch, communicates tracking information to your customers, provides endless automation, filters, and views, wireless printing, a mobile app, and a lot more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ShipStation-stacked-blue.png",
+			"humanURL": "http://bit.ly/_ShipStation",
+			"baseURL": "https://ssapi.shipstation.com//",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/ship-station/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Click Meter",
+			"x-api-slug": "click-meter",
+			"description": "ClickMeter was founded in 2012 as a byproduct of an experienced web-marketing agency. The ClickMeter System was initially a web tool created to address the needs of our agency to precisely count and track the web-marketing actions we performed for our customers.The system evolved rapidly, and emerged as one of the most widely used software solutions in our agency to collect, analyze, and share data for and with our customers. After few years after the development of the first ClickMeter system, we decided to go live with a service that can be useful to everyone involved in web-marketing activities.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png",
+			"humanURL": "http://clickmeter.com",
+			"baseURL": "https://apiv2.clickmeter.com:80//",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/click-meter/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Geneea",
+			"x-api-slug": "geneea",
+			"description": "Geneea helps you analyze large amounts of text. Whether it is Facebook, blogs, e-mails or legal documents in your archives. Within seconds.     Dont change your business processes. Simply plug in the output of The Interpretor, our powerful software p...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/geneea-logo.png",
+			"humanURL": "https://www.geneea.com",
+			"baseURL": "https://api.geneea.com//",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/geneea/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HHS Media Services",
+			"x-api-slug": "hhs-media-services",
+			"description": "Use this API platform to create sites with text and multimedia content for syndication. CDC, FDA, HHS, and NIH have built syndication sites using this platform, which is available in Java and .NET.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hhs-media-services.png",
+			"humanURL": "https://api.digitalmedia.hhs.gov/",
+			"baseURL": "https://api.digitalmedia.hhs.gov//api/v2",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/hhs-media-services/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Predix",
+			"x-api-slug": "predix",
+			"description": "Predix (IoT PaaS) helps you develop apps that connect people with industrial machines through analytics and data for better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png",
+			"humanURL": "https://www.predix.io",
+			"baseURL": "https:////v1",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/predix/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Codefresh",
+			"x-api-slug": "codefresh",
+			"description": "Docker Automation and Collaboration for Agile Teams. Codefresh lets dev, QA and product work together on Docker compositions, including CI/CD, manual testing and feature previews.Codefresh enables you to instantly leverage all the benefits of Docker, w...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg",
+			"humanURL": "https://codefresh.io",
+			"baseURL": "https://g.codefresh.io//api",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/codefresh/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Clover",
+			"x-api-slug": "clover",
+			"description": "Clover, a First Data company, builds the largest open-architecture point of sale solution aimed at small &amp; medium sized business owners. Our products are changing the consumer/merchant experience for the better, opening avenues for seamless customer-merchant interactions. There are five versions of Clover, including the Clover Station, Clover Mobile, Clover Mini, Clover Go, and Clover Flex. With Clover, First Data is aiming to create the largest open architecture operating system for commerce-enabling solutions and applications for business owners.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png",
+			"humanURL": "https://www.clover.com",
+			"baseURL": "https:///merchants/https://api.clover.com",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/clover/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Akeneo",
+			"x-api-slug": "akeneo",
+			"description": "Our team has been working in the e-commerce industry for over 10 years. As we were helping brands to grow their online businesses, we realized that they were all struggling with complex or archaic systems to manage product information. We founded Akeneo in 2013 with the idea that products are the most important assets in a company and that many merchants lack a tool to help them manage and leverage this crucial asset. Merchants needed a tool that was designed for marketers and flexible enough to be integrated with any third-party application.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png",
+			"humanURL": "https://akeneo.com",
+			"baseURL": "https://example.com//api",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/akeneo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GitLab",
+			"x-api-slug": "gitlab",
+			"description": "GitLab is a web-based Git-repository manager with wiki, issue-tracking and CI/CD pipelines features, using an open-source license, developed by GitLab Inc.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png",
+			"humanURL": "http://gitlab.com",
+			"baseURL": "https://localhost:3000//api",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/gitlab/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "LiveChat",
+			"x-api-slug": "livechat",
+			"description": "LiveChat is an offline customer service software with live support, help desk software, and web analytics capabilities.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28877-developers-livechatinc-com.jpg",
+			"humanURL": "https://www.livechatinc.com/",
+			"baseURL": "https://api.livechatinc.com//",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/livechat/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GIG & CROWD",
+			"x-api-slug": "gig--crowd",
+			"description": "A unique system of the order and booking of artists: negotiations, coordination of conditions, convenient reminders of fee payment terms and rider preparation.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png",
+			"humanURL": "https://gigandcrowd.com",
+			"baseURL": "https://gigandcrowd.com//",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/gig--crowd/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/dezrez/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xibo",
+			"x-api-slug": "xibo",
+			"description": "Xibo Digital Signage is a low-cost, high performance solution to launch your business, workplace or organisation into the future. Xibo doesn&rsquo;t just replicate print media, but actively increases engagement allowing you to deliver your message more effectively than ever before.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg",
+			"humanURL": "http://www.xibo.org.uk",
+			"baseURL": "https:////api",
+			"tags": "Tags",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/xibo/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Tags",
+	"include": [
+		{
+			"name": "Urban Airship",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/apis.yaml"
+		},
+		{
+			"name": "GitHub",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/github/apis.yaml"
+		},
+		{
+			"name": "Etsy",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/etsy/apis.yaml"
+		},
+		{
+			"name": "Facebook",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/facebook/apis.yaml"
+		},
+		{
+			"name": "The Guardian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/the-guardian/apis.yaml"
+		},
+		{
+			"name": "Pinboard",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/pinboard/apis.yaml"
+		},
+		{
+			"name": "Stack Exchange",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/stack-exchange/apis.yaml"
+		},
+		{
+			"name": "7digital",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/7digital/apis.yaml"
+		},
+		{
+			"name": "AngelList",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/angellist/apis.yaml"
+		},
+		{
+			"name": "Zemanta",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/zemanta/apis.yaml"
+		},
+		{
+			"name": "Fluxiom",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/fluxiom/apis.yaml"
+		},
+		{
+			"name": "Mailgun",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/mailgun/apis.yaml"
+		},
+		{
+			"name": "Postmark",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/postmark/apis.yaml"
+		},
+		{
+			"name": "Atlassian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/atlassian/apis.yaml"
+		},
+		{
+			"name": "OpenRouteService",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/openrouteservice/apis.yaml"
+		},
+		{
+			"name": "Jinni",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/jinni/apis.yaml"
+		},
+		{
+			"name": "Plivo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/plivo/apis.yaml"
+		},
+		{
+			"name": "OpenStreetMap",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/openstreetmap/apis.yaml"
+		},
+		{
+			"name": "API Science",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/api-science/apis.yaml"
+		},
+		{
+			"name": "Data.Gov",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/data-gov/apis.yaml"
+		},
+		{
+			"name": "Flickr",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/flickr/apis.yaml"
+		},
+		{
+			"name": "DigitalOcean",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/digitalocean/apis.yaml"
+		},
+		{
+			"name": "Knoema",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/knoema/apis.yaml"
+		},
+		{
+			"name": "Watchful",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/watchful/apis.yaml"
+		},
+		{
+			"name": "EhrScape",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/ehrscape/apis.yaml"
+		},
+		{
+			"name": "The New York Times",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/the-new-york-times/apis.yaml"
+		},
+		{
+			"name": "Shopify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/shopify/apis.yaml"
+		},
+		{
+			"name": "Bitbucket",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/bitbucket/apis.yaml"
+		},
+		{
+			"name": "OpenDNS",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/opendns/apis.yaml"
+		},
+		{
+			"name": "Hewlett Packard Enterprise (HPE)",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/hewlett-packard-enterprise-hpe/apis.yaml"
+		},
+		{
+			"name": "Datadog",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/datadog/apis.yaml"
+		},
+		{
+			"name": "US Digital Registry",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/us-digital-registry/apis.yaml"
+		},
+		{
+			"name": "AWS S3",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-s3/apis.yaml"
+		},
+		{
+			"name": "AWS Storage Gateway Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-storage-gateway-service/apis.yaml"
+		},
+		{
+			"name": "AWS RDS",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-rds/apis.yaml"
+		},
+		{
+			"name": "AWS ElastiCache",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-elasticache/apis.yaml"
+		},
+		{
+			"name": "AWS Redshift",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-redshift/apis.yaml"
+		},
+		{
+			"name": "AWS Database Migration Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-database-migration-service/apis.yaml"
+		},
+		{
+			"name": "AWS CloudFront",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-cloudfront/apis.yaml"
+		},
+		{
+			"name": "AWS Direct Connect",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-direct-connect/apis.yaml"
+		},
+		{
+			"name": "AWS CodeDeploy",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-codedeploy/apis.yaml"
+		},
+		{
+			"name": "AWS EC2 Systems Manager",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-ec2-systems-manager/apis.yaml"
+		},
+		{
+			"name": "AWS Inspector",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-inspector/apis.yaml"
+		},
+		{
+			"name": "AWS Certificate Manager",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-certificate-manager/apis.yaml"
+		},
+		{
+			"name": "AWS CloudHSM",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-cloudhsm/apis.yaml"
+		},
+		{
+			"name": "AWS Directory Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-directory-service/apis.yaml"
+		},
+		{
+			"name": "AWS Elastic MapReduce",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-elastic-mapreduce/apis.yaml"
+		},
+		{
+			"name": "AWS CloudSearch",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-cloudsearch/apis.yaml"
+		},
+		{
+			"name": "AWS Elasticsearch Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-elasticsearch-service/apis.yaml"
+		},
+		{
+			"name": "AWS Data Pipeline",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-data-pipeline/apis.yaml"
+		},
+		{
+			"name": "AWS Machine Learning",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-machine-learning/apis.yaml"
+		},
+		{
+			"name": "AWS WorkSpaces",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-workspaces/apis.yaml"
+		},
+		{
+			"name": "AWS EC2",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-ec2/apis.yaml"
+		},
+		{
+			"name": "AWS Auto Scaling",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-auto-scaling/apis.yaml"
+		},
+		{
+			"name": "AWS Elastic Load Balancing",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-elastic-load-balancing/apis.yaml"
+		},
+		{
+			"name": "AWS Route 53",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-route-53/apis.yaml"
+		},
+		{
+			"name": "Sustainable Facilities Tool API",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/sustainable-facilities-tool-api/apis.yaml"
+		},
+		{
+			"name": "Google Tag Manager",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/google-tag-manager/apis.yaml"
+		},
+		{
+			"name": "Azure Resource Manager",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/azure-resource-manager/apis.yaml"
+		},
+		{
+			"name": "Intrinio",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/intrinio/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Entertainment Express",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/entertainment-express/apis.yaml"
+		},
+		{
+			"name": "PayRun",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/payrun/apis.yaml"
+		},
+		{
+			"name": "Ship Station",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/ship-station/apis.yaml"
+		},
+		{
+			"name": "Click Meter",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/click-meter/apis.yaml"
+		},
+		{
+			"name": "Geneea",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/geneea/apis.yaml"
+		},
+		{
+			"name": "HHS Media Services",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/hhs-media-services/apis.yaml"
+		},
+		{
+			"name": "Predix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/predix/apis.yaml"
+		},
+		{
+			"name": "Codefresh",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/codefresh/apis.yaml"
+		},
+		{
+			"name": "Clover",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/clover/apis.yaml"
+		},
+		{
+			"name": "Akeneo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/akeneo/apis.yaml"
+		},
+		{
+			"name": "GitLab",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/gitlab/apis.yaml"
+		},
+		{
+			"name": "LiveChat",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/livechat/apis.yaml"
+		},
+		{
+			"name": "GIG & CROWD",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/gig--crowd/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/dezrez/apis.yaml"
+		},
+		{
+			"name": "Xibo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/xibo/apis.yaml"
+		}
+	]
+}

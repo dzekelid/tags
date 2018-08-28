@@ -7,37 +7,39 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitb
 x-kinRank: "8"
 x-alexaRank: "901"
 tags: Tags
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/bitbucket/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Bitbucket Get Repositories Username Repo Slug Refs Tags
-  x-api-slug: bitbucket
+- name: Bitbucket - Get Repositories Username Repo Slug Refs Tags
+  x-api-slug: repositoriesusernamerepo-slugrefstags-get
   description: Get repositories username repo slug refs tags
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/refs/tags
-  tags: Repositories, Username, Repo, Slug, Refs, Tags
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/bitbucket/repositoriesusernamerepo-slugrefstags-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/bitbucket/repositoriesusernamerepo-slugrefstags-get-openapi.md
-- name: Bitbucket Parameters Repositories Username Repo Slug Refs Tags
-  x-api-slug: bitbucket
+- name: Bitbucket - Parameters Repositories Username Repo Slug Refs Tags
+  x-api-slug: repositoriesusernamerepo-slugrefstags-parameters
   description: Parameters repositories username repo slug refs tags
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/refs/tags
-  tags: Repositories, Username, Repo, Slug, Refs, Tags
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/bitbucket/repositoriesusernamerepo-slugrefstags-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/bitbucket/repositoriesusernamerepo-slugrefstags-parameters-openapi.md
-- name: Bitbucket Add Repositories Username Repo Slug Refs Tags
-  x-api-slug: bitbucket
+- name: Bitbucket - Add Repositories Username Repo Slug Refs Tags
+  x-api-slug: repositoriesusernamerepo-slugrefstags-post
   description: |-
     Creates a new tag in the specified repository.
 
@@ -58,47 +60,43 @@ apis:
     ambiguous. Using a full commit hash is the preferred approach.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/refs/tags
-  tags: Repositories, Username, Repo, Slug, Refs, Tags
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/bitbucket/repositoriesusernamerepo-slugrefstags-post-openapi.md
-- name: Bitbucket Get Repositories Username Repo Slug Refs Tags Name
-  x-api-slug: bitbucket
+- name: Bitbucket - Get Repositories Username Repo Slug Refs Tags Name
+  x-api-slug: repositoriesusernamerepo-slugrefstagsname-get
   description: Get repositories username repo slug refs tags name
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/refs/tags/{name}
-  tags: Repositories, Username, Repo, Slug, Refs, Tags, Name
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/bitbucket/repositoriesusernamerepo-slugrefstagsname-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/bitbucket/repositoriesusernamerepo-slugrefstagsname-get-openapi.md
-- name: Bitbucket Parameters Repositories Username Repo Slug Refs Tags Name
-  x-api-slug: bitbucket
+- name: Bitbucket - Parameters Repositories Username Repo Slug Refs Tags Name
+  x-api-slug: repositoriesusernamerepo-slugrefstagsname-parameters
   description: Parameters repositories username repo slug refs tags name
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/refs/tags/{name}
-  tags: Repositories, Username, Repo, Slug, Refs, Tags, Name
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/bitbucket/repositoriesusernamerepo-slugrefstagsname-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/bitbucket/repositoriesusernamerepo-slugrefstagsname-parameters-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: Collaborate on code with inline comments and pull requests. Manage
-    and share your Git repositories to build and ship software, as a team.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
-  humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0
-  tags: Tags
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/bitbucket/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://bigoven.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://bitbucket.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/bitbucket
 - type: x-developer

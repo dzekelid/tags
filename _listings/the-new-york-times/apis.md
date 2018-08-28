@@ -8,39 +8,32 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18820-new-
 x-kinRank: "9"
 x-alexaRank: "117"
 tags: Tags
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/the-new-york-times/apis.md
 specificationVersion: "0.14"
 apis:
-- name: New York Times Times Tag
-  x-api-slug: new-york-times
+- name: New York Times - Times Tag
+  x-api-slug: timestags-get
   description: With the TimesTags API, you can mine the riches of the New York Times
     tag set. The TimesTags service matches your query to the controlled vocabularies
     that fuel NYTimes.com metadata. You supply a string of characters, and the service
     returns a ranked list of suggested terms.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18820-new-york-times.jpg
   humanURL: http://nytimes.com
-  baseURL: https://api.nytimes.com//svc//timestags
-  tags: Tags
+  baseURL: https://api.nytimes.com//svc
+  tags: Media, News, API Provider, Profiles, Publish, General Data, Relative Data,
+    Service API, Pedestal, Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/the-new-york-times/timestags-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/the-new-york-times/timestags-get-openapi.md
-- name: New York Times
-  x-api-slug: new-york-times
-  description: 'The New York Times: Find breaking news, multimedia, reviews & opinion
-    on Washington, business, sports, movies, travel, books, jobs, education, real
-    estate, cars & more at nytimes.com.'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18820-new-york-times.jpg
-  humanURL: http://nytimes.com
-  baseURL: https://api.nytimes.com//svc
-  tags: Tags
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/the-new-york-times/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://the.guardian.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://the.new.york.times.stack.network
 - type: x-application-gallery
   url: http://developer.nytimes.com/gallery
 - type: x-application-management

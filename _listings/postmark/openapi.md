@@ -1,12 +1,11 @@
----
 swagger: "2.0"
 x-collection-name: Postmark
 x-complete: 1
 info:
-  title: Postmark
-  description: send-emails-retrieve-bounces-and-start-accepting-inbound-emails-all-via-an-easytouse-http-api-
-  version: 1.0.0
-host: spamcheck.postmarkapp.com
+  title: Postmark Account-level
+  description: postmark-makes-sending-and-receiving-email-incredibly-easy--the-accountlevel-api-allows-users-toconfigure-all-servers-domains-and-sender-signatures-associated-with-an-account-
+  version: 0.9.0
+host: api.postmarkapp.com
 basePath: /
 schemes:
 - http
@@ -160,4 +159,3 @@ paths:
       - Triggers
       - Tags
       - Triggerid
----

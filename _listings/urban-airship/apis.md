@@ -7,99 +7,202 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-a
 x-kinRank: "8"
 x-alexaRank: "79571"
 tags: Tags
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Urban Airship Get Tags
-  x-api-slug: urban-airship
+- name: Urban Airship - Get Tags
+  x-api-slug: tags-get
   description: Returns all the tags that you have created.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
   humanURL: http://urbanairship.com/
-  baseURL: https://go.urbanairship.com//api///tags
-  tags: Tags
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/tags-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/tags-get-openapi.md
-- name: Urban Airship Put Tags Tag
-  x-api-slug: urban-airship
+- name: Urban Airship - Put Tags Tag
+  x-api-slug: tagstag-put
   description: Deletes a tag.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
   humanURL: http://urbanairship.com/
-  baseURL: https://go.urbanairship.com//api///tags/{tag}
-  tags: Tags,Tag
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/tagstag-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/tagstag-put-openapi.md
-- name: Urban Airship Post Tags Tag
-  x-api-slug: urban-airship
+- name: Urban Airship - Post Tags Tag
+  x-api-slug: tagstag-post
   description: Modifies device tokens on a tag.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
   humanURL: http://urbanairship.com/
-  baseURL: https://go.urbanairship.com//api///tags/{tag}
-  tags: Tags,Tag
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/tagstag-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/tagstag-post-openapi.md
-- name: Urban Airship Get Device Tokens Device Token Tags
-  x-api-slug: urban-airship
+- name: Urban Airship - Get Device Tokens Device Token Tags
+  x-api-slug: device-tokensdevice-tokentags-get
   description: Gets tags for a specific device token.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
   humanURL: http://urbanairship.com/
-  baseURL: https://go.urbanairship.com//api///device_tokens/{device_token}/tags
-  tags: Device,Tokens,Device,Token,Tags
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/device-tokensdevice-tokentags-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/device-tokensdevice-tokentags-get-openapi.md
-- name: Urban Airship Put Device Tokens Device Token Tags Tag
-  x-api-slug: urban-airship
+- name: Urban Airship - Put Device Tokens Device Token Tags Tag
+  x-api-slug: device-tokensdevice-tokentagstag-put
   description: Creates a tag and associate it with the specific device token.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
   humanURL: http://urbanairship.com/
-  baseURL: https://go.urbanairship.com//api///device_tokens/{device_token}/tags/{tag}
-  tags: Device,Tokens,Device,Token,Tags,Tag
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/device-tokensdevice-tokentagstag-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/device-tokensdevice-tokentagstag-put-openapi.md
-- name: Urban Airship Delete Device Tokens Device Token Tags Tag
-  x-api-slug: urban-airship
+- name: Urban Airship - Delete Device Tokens Device Token Tags Tag
+  x-api-slug: device-tokensdevice-tokentagstag-delete
   description: Removes a single tag from a device token.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
   humanURL: http://urbanairship.com/
-  baseURL: https://go.urbanairship.com//api///device_tokens/{device_token}/tags/{tag}
-  tags: Device,Tokens,Device,Token,Tags,Tag
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/device-tokensdevice-tokentagstag-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/device-tokensdevice-tokentagstag-delete-openapi.md
-- name: Urban Airship
-  x-api-slug: urban-airship
-  description: The Urban Airship Push API is a major update which unifies several
-    legacy endpoints into two&mdash; one for sending messages and one for scheduling.
+- name: Urban Airship - Put Tags Tag
+  x-api-slug: tagstag-put
+  description: Deletes a tag.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
   humanURL: http://urbanairship.com/
   baseURL: https://go.urbanairship.com//api/
-  tags: Tags
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/tagstag-put-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/tagstag-put-openapi.md
+- name: Urban Airship - Post Tags Tag
+  x-api-slug: tagstag-post
+  description: Modifies device tokens on a tag.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
+  humanURL: http://urbanairship.com/
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/tagstag-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/tagstag-post-openapi.md
+- name: Urban Airship - Put Device Tokens Device Token Tags Tag
+  x-api-slug: device-tokensdevice-tokentagstag-put
+  description: Creates a tag and associate it with the specific device token.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
+  humanURL: http://urbanairship.com/
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/device-tokensdevice-tokentagstag-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/device-tokensdevice-tokentagstag-put-openapi.md
+- name: Urban Airship - Delete Device Tokens Device Token Tags Tag
+  x-api-slug: device-tokensdevice-tokentagstag-delete
+  description: Removes a single tag from a device token.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
+  humanURL: http://urbanairship.com/
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/device-tokensdevice-tokentagstag-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/device-tokensdevice-tokentagstag-delete-openapi.md
+- name: Urban Airship - Delete Device Tokens Device Token Tags Tag
+  x-api-slug: device-tokensdevice-tokentagstag-delete
+  description: Removes a single tag from a device token.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
+  humanURL: http://urbanairship.com/
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/device-tokensdevice-tokentagstag-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/device-tokensdevice-tokentagstag-delete-openapi.md
+- name: Urban Airship - Put Device Tokens Device Token Tags Tag
+  x-api-slug: device-tokensdevice-tokentagstag-put
+  description: Creates a tag and associate it with the specific device token.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
+  humanURL: http://urbanairship.com/
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/device-tokensdevice-tokentagstag-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/device-tokensdevice-tokentagstag-put-openapi.md
+- name: Urban Airship - Post Tags Tag
+  x-api-slug: tagstag-post
+  description: Modifies device tokens on a tag.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
+  humanURL: http://urbanairship.com/
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/tagstag-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/tagstag-post-openapi.md
+- name: Urban Airship - Put Tags Tag
+  x-api-slug: tagstag-put
+  description: Deletes a tag.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
+  humanURL: http://urbanairship.com/
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/tagstag-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/urban-airship/tagstag-put-openapi.md
 x-common:
 - type: x-website
   url: http://urbanairship.com/
 - type: x-android-sdk
   url: http://docs.urbanairship.com/platform/android.html
+- type: x-api-gallery
+  url: http://ulster.bank.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://urban.airship.stack.network
 - type: x-blackberry-sdk
   url: http://docs.urbanairship.com/platform/blackberry.html
 - type: x-blog

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS CloudFront
 x-complete: 1
@@ -105,4 +104,33 @@ paths:
       - List
       - Tags
       - Resource
----
+  /?Action=TagResource:
+    get:
+      summary: Tag Resource
+      description: Add tags to a CloudFront resource.
+      operationId: tagResource
+      x-api-path-slug: actiontagresource-get
+      parameters:
+      - in: query
+        name: DhcpOptionsId.N
+        description: The IDs of one or more DHCP options sets
+        type: string
+      - in: query
+        name: DryRun
+        description: Checks whether you have the required permissions for the action,
+          without actually making the request,        and provides an error response
+        type: string
+      - in: query
+        name: Filter.N
+        description: One or more filters
+        type: string
+      - in: query
+        name: Resource
+        description: An ARN of a CloudFront resource
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Tag
+      - Resource

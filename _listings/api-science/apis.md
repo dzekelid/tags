@@ -8,46 +8,40 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Tags
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/api-science/apis.md
 specificationVersion: "0.14"
 apis:
-- name: API Science List All Tags
-  x-api-slug: api-science
+- name: API Science - List All Tags
+  x-api-slug: tags-get
   description: List All Tags
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
   humanURL: http://apiscience.com
-  baseURL: https://///tags
-  tags: Tags
+  baseURL: https:///
+  tags: Monitoring, My API Stack, API LIfeyclessss, Stack Network, API Service Provider,
+    Profiles, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/api-science/tags-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/api-science/tags-get-openapi.md
-- name: API Science Deleting a tag
-  x-api-slug: api-science
+- name: API Science - Deleting a tag
+  x-api-slug: inventorytags-
   description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
   humanURL: http://apiscience.com
-  baseURL: https://///inventory/tags
-  tags: Tags
+  baseURL: https:///
+  tags: Monitoring, My API Stack, API LIfeyclessss, Stack Network, API Service Provider,
+    Profiles, Relative Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/api-science/inventorytags--openapi.md
-- name: API Science
-  x-api-slug: api-science
-  description: Traditional monitoring services were designed long before APIs became
-    core to modern applications. API Science is designed specifically for monitoring
-    APIs. Sure, we understand REST, JSON, OAuth, XML. No problem.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
-  humanURL: http://apiscience.com
-  baseURL: https:///
-  tags: Tags
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/api-science/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://api.science.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://api.science.stack.network
 - type: x-base-url
   url: http://api.apiscience.com
 - type: x-blog

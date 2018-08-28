@@ -15,61 +15,88 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Tags
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-certificate-manager/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Certificate Manager API Add Tags To Certificate
-  x-api-slug: aws-certificate-manager-api
+- name: AWS Certificate Manager API - Add Tags To Certificate
+  x-api-slug: actionaddtagstocertificate-get
   description: Adds one or more tags to an ACM Certificate.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_ACM_certificate-manager.png
   humanURL: https://aws.amazon.com/certificate-manager/
-  baseURL: ://///?Action=AddTagsToCertificate
-  tags: Certificate Tags
+  baseURL: :///
+  tags: Amazon Web Services, Security, Certificates, Encryption, Stack Network, API
+    Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-certificate-manager/actionaddtagstocertificate-get-openapi.md
-- name: AWS Certificate Manager API List Tags For Certificate
-  x-api-slug: aws-certificate-manager-api
+- name: AWS Certificate Manager API - List Tags For Certificate
+  x-api-slug: actionlisttagsforcertificate-get
   description: Lists the tags that have been applied to the ACM Certificate.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_ACM_certificate-manager.png
   humanURL: https://aws.amazon.com/certificate-manager/
-  baseURL: ://///?Action=ListTagsForCertificate
-  tags: Certificate Tags
+  baseURL: :///
+  tags: Amazon Web Services, Security, Certificates, Encryption, Stack Network, API
+    Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-certificate-manager/actionlisttagsforcertificate-get-openapi.md
-- name: AWS Certificate Manager API Remove Tags From Certificate
-  x-api-slug: aws-certificate-manager-api
+- name: AWS Certificate Manager API - Remove Tags From Certificate
+  x-api-slug: actionremovetagsfromcertificate-get
   description: Remove one or more tags from an ACM Certificate.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_ACM_certificate-manager.png
   humanURL: https://aws.amazon.com/certificate-manager/
-  baseURL: ://///?Action=RemoveTagsFromCertificate
-  tags: Certificate Tags
+  baseURL: :///
+  tags: Amazon Web Services, Security, Certificates, Encryption, Stack Network, API
+    Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-certificate-manager/actionremovetagsfromcertificate-get-openapi.md
-- name: AWS Certificate Manager API
-  x-api-slug: aws-certificate-manager-api
-  description: AWS Certificate Manager is a service that lets you easily provision,
-    manage, and deploy Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificates
-    for use with AWS services. SSL/TLS certificates are used to secure network communications
-    and establish the identity of websites over the Internet. AWS Certificate Manager
-    removes the time-consuming manual process of purchasing, uploading, and renewing
-    SSL/TLS certificates. With AWS Certificate Manager, you can quickly request a
-    certificate, deploy it on AWS resources such as Elastic Load Balancers or Amazon
-    CloudFront distributions, and let AWS Certificate Manager handle certificate renewals.
-    SSL/TLS certificates provisioned through AWS Certificate Manager are free. You
-    pay only for the AWS resources you create to run your application.
+- name: AWS Certificate Manager API - Add Tags To Certificate
+  x-api-slug: actionaddtagstocertificate-get
+  description: Adds one or more tags to an ACM Certificate.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_ACM_certificate-manager.png
   humanURL: https://aws.amazon.com/certificate-manager/
   baseURL: :///
-  tags: Tags
+  tags: Amazon Web Services, Security, Certificates, Encryption, Stack Network, API
+    Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-certificate-manager/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-certificate-manager/actionaddtagstocertificate-get-openapi.md
+- name: AWS Certificate Manager API - List Tags For Certificate
+  x-api-slug: actionlisttagsforcertificate-get
+  description: Lists the tags that have been applied to the ACM Certificate.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_ACM_certificate-manager.png
+  humanURL: https://aws.amazon.com/certificate-manager/
+  baseURL: :///
+  tags: Amazon Web Services, Security, Certificates, Encryption, Stack Network, API
+    Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-certificate-manager/actionlisttagsforcertificate-get-openapi.md
+- name: AWS Certificate Manager API - Remove Tags From Certificate
+  x-api-slug: actionremovetagsfromcertificate-get
+  description: Remove one or more tags from an ACM Certificate.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_ACM_certificate-manager.png
+  humanURL: https://aws.amazon.com/certificate-manager/
+  baseURL: :///
+  tags: Amazon Web Services, Security, Certificates, Encryption, Stack Network, API
+    Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-certificate-manager/actionremovetagsfromcertificate-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.batch.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.certificate.manager.stack.network
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/acm/index.html
 - type: x-documentation

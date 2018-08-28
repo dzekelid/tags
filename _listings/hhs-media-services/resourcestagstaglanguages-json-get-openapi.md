@@ -67,6 +67,114 @@ paths:
       - Resources
       - Tags
       - TagLanguages
+  /resources/tags/tagTypes.json:
+    get:
+      summary: Get TagTypes
+      description: Returns the list of TagTypes
+      operationId: getTagTypes
+      x-api-path-slug: resourcestagstagtypes-json-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Resources
+      - Tags
+      - TagTypes
+  /resources/tags/{id}.json:
+    get:
+      summary: Get Tag by ID
+      description: Returns the Tag identified by the 'id' in the specified 'format'.
+      operationId: getTagById
+      x-api-path-slug: resourcestagsid-json-get
+      parameters:
+      - in: path
+        name: id
+        description: The id of the record to look up
+      responses:
+        200:
+          description: OK
+      tags:
+      - Resources
+      - Tags
+      - Id
+  /resources/tags/{id}/media.json:
+    get:
+      summary: Get MediaItems for Tag
+      description: Returns the list of MediaItems associated with the Tag identified
+        by the 'id'.
+      operationId: getMediaByTagId
+      x-api-path-slug: resourcestagsidmedia-json-get
+      parameters:
+      - in: path
+        name: id
+        description: The id of the record to look up
+      - in: query
+        name: max
+        description: The maximum number of records to return
+      - in: query
+        name: offset
+        description: The offset of the records set to return for pagination
+      - in: query
+        name: sort
+        description: The name of the property to which sorting will be applied
+      responses:
+        200:
+          description: OK
+      tags:
+      - Resources
+      - Tags
+      - Id
+      - Media
+  /resources/tags/{id}/related.json:
+    get:
+      summary: Get related Tags by ID
+      description: Returns the list of Tags related to the Tag identified by the 'id'
+        in the specified format.
+      operationId: getRelatedTagsById
+      x-api-path-slug: resourcestagsidrelated-json-get
+      parameters:
+      - in: path
+        name: id
+        description: The id of the tag to look up
+      - in: query
+        name: max
+        description: The maximum number of records to return
+      - in: query
+        name: offset
+        description: The offset of the records set to return for pagination
+      - in: query
+        name: sort
+        description: The name of the property to which sorting will be applied
+      responses:
+        200:
+          description: OK
+      tags:
+      - Resources
+      - Tags
+      - Id
+      - Related
+  /resources/tags/{id}/syndicate.json:
+    get:
+      summary: Get MediaItems for Tag
+      description: Renders the list of MediaItems associated with the Tag identified
+        by the 'id'.
+      operationId: renders-the-list-of-mediaitems-associated-with-the-tag-identified-by-the-id-
+      x-api-path-slug: resourcestagsidsyndicate-json-get
+      parameters:
+      - in: query
+        name: displayMethod
+        description: Method used to render an html request
+      - in: path
+        name: id
+        description: The id of the record to look up
+      responses:
+        200:
+          description: OK
+      tags:
+      - Resources
+      - Tags
+      - Id
+      - Syndicate
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

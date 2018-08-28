@@ -1,13 +1,11 @@
----
 swagger: "2.0"
 x-collection-name: Plivo
 x-complete: 1
 info:
-  title: Codenvy Account API
-  description: this-is-the-api-for-managing-codenvy-account-
+  title: Plivo
   version: 1.0.0
-host: /account
-basePath: https://codenvy.com/api
+host: api.plivo.com
+basePath: v1/
 schemes:
 - http
 produces:
@@ -36,4 +34,3 @@ paths:
       - Photos
       - :id
       - Tags
----

@@ -340,6 +340,28 @@ paths:
       - TagId
       - Groups
       - Patch
+  /tags/{tagId}/name:
+    put:
+      summary: Fast patch a tag name
+      description: Fast patch a tag name.
+      operationId: putTagsTagName
+      x-api-path-slug: tagstagidname-put
+      parameters:
+      - in: body
+        name: data
+        description: The body patch
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: tagId
+        description: Id of the tag
+      responses:
+        200:
+          description: OK
+      tags:
+      - Tags
+      - TagId
+      - Name
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

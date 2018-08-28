@@ -33,6 +33,71 @@ paths:
           description: OK
       tags:
       - Tags
+    post:
+      summary: Change Tags For Resource
+      description: Adds, edits, or deletes tags for a health check or a hosted zone.For
+        information about using tags for cost allocation, see Using Cost Allocation
+        Tags in the AWS Billing and Cost Management User Guide.
+      operationId: changetagsforresource
+      x-api-path-slug: 20130401tagsresourcetyperesourceid-post
+      parameters:
+      - in: body
+        name: AddTags
+        description: A complex type that contains a list of the tags that you want
+          to add to the specifiedhealth check or hosted zone and/or the tags for which
+          you want to edit the Valueelement
+        schema:
+          $ref: '#/definitions/holder'
+      - in: body
+        name: ChangeTagsForResourceRequest
+        description: Root level tag for the ChangeTagsForResourceRequest parameters
+        schema:
+          $ref: '#/definitions/holder'
+      - in: body
+        name: RemoveTagKeys
+        description: A complex type that contains a list of the tags that you want
+          to delete from thespecified health check or hosted zone
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: ResourceId
+        description: The ID of the resource for which you want to add, change, or
+          delete tags
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Changes
+  /2013-04-01/tags/ResourceType:
+    post:
+      summary: List Tags For Resources
+      description: Lists tags for up to 10 health checks or hosted zones.For information
+        about using tags for cost allocation, see Using Cost Allocation Tags in the
+        AWS Billing and Cost Management User Guide.
+      operationId: listtagsforresources
+      x-api-path-slug: 20130401tagsresourcetype-post
+      parameters:
+      - in: body
+        name: ListTagsForResourcesRequest
+        description: Root level tag for the ListTagsForResourcesRequest parameters
+        schema:
+          $ref: '#/definitions/holder'
+      - in: body
+        name: ResourceIds
+        description: A complex type that contains the ResourceId element for each
+          resource for which youwant to get a list of tags
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: ResourceType
+        description: The type of the resources
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Tags
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -1,0 +1,65 @@
+---
+swagger: "2.0"
+x-collection-name: Clover
+x-complete: 0
+info:
+  title: Clover Get all tags
+  version: 1.0.0
+  description: Similarly to how they are described by wikipedia, tags are an informal
+    way of establishing a relationship. Tags currently may be associated with items
+    and printers. When an tag is associated with both an item and a printer that establishes
+    a special relationship that results in those items being printed out on the associated
+    printer when printing an order. Other than that special case there is no effect
+    when an item is associated with a tag. Developers may use tags to establish a
+    relationship meaningful for their needs.
+host: /merchants
+basePath: https://api.clover.com
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /v3/merchants/{mId}/tags:
+    get:
+      summary: Get all tags
+      description: Similarly to how they are described by wikipedia, tags are an informal
+        way of establishing a relationship. Tags currently may be associated with
+        items and printers. When an tag is associated with both an item and a printer
+        that establishes a special relationship that results in those items being
+        printed out on the associated printer when printing an order. Other than that
+        special case there is no effect when an item is associated with a tag. Developers
+        may use tags to establish a relationship meaningful for their needs.
+      operationId: GetTags
+      x-api-path-slug: v3merchantsmidtags-get
+      parameters:
+      - in: query
+        name: expand
+        description: 'Expandable fields: [items, printers]'
+      - in: query
+        name: filter
+        description: 'Filter fields: [modifiedTime, deleted, name, id]'
+      - in: path
+        name: mId
+        description: Merchant Id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Merchants
+      - Tags
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

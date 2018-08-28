@@ -7,61 +7,198 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebo
 x-kinRank: "9"
 x-alexaRank: "3"
 tags: Tags
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/facebook/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Facebook Get Photo Tags
-  x-api-slug: facebook
+- name: Facebook - Get Photo Tags
+  x-api-slug: phototags-get
   description: Tags for this photo.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: http:///business
-  baseURL: https://graph.facebook.com////{photo}/tags
-  tags: Photo,Tags
+  baseURL: https://graph.facebook.com//
+  tags: Social, My API Stack, Indie EdTech Data Jam, Issues Example, Facebook Stack,
+    Stack Network, Stack, internet, Technology, Mobile, API Provider, Social, Social
+    Networks, Profiles, Payments, General Data, Relative Data, Pedestal, Historical
+    Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/facebook/phototags-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/facebook/phototags-get-openapi.md
-- name: Facebook Post Photo Tags
-  x-api-slug: facebook
+- name: Facebook - Post Photo Tags
+  x-api-slug: phototags-post
   description: Creates a tag on this photo.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: http:///business
-  baseURL: https://graph.facebook.com////{photo}/tags
-  tags: Photo,Tags
+  baseURL: https://graph.facebook.com//
+  tags: Social, My API Stack, Indie EdTech Data Jam, Issues Example, Facebook Stack,
+    Stack Network, Stack, internet, Technology, Mobile, API Provider, Social, Social
+    Networks, Profiles, Payments, General Data, Relative Data, Pedestal, Historical
+    Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/facebook/phototags-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/facebook/phototags-post-openapi.md
-- name: Facebook Post Photo Tags User
-  x-api-slug: facebook
+- name: Facebook - Post Photo Tags User
+  x-api-slug: phototagsuser-post
   description: Updates the position of a tag on this photo for the user.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: http:///business
-  baseURL: https://graph.facebook.com////{photo}/tags/{user}
-  tags: Photo,Tags,User
+  baseURL: https://graph.facebook.com//
+  tags: Social, My API Stack, Indie EdTech Data Jam, Issues Example, Facebook Stack,
+    Stack Network, Stack, internet, Technology, Mobile, API Provider, Social, Social
+    Networks, Profiles, Payments, General Data, Relative Data, Pedestal, Historical
+    Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/facebook/phototagsuser-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/facebook/phototagsuser-post-openapi.md
-- name: Facebook
-  x-api-slug: facebook
-  description: Create an account or log into Facebook. Connect with friends, family
-    and other people you know. Share photos and videos, send messages and get updates.
+- name: Facebook - Get Application Tagged
+  x-api-slug: applicationtagged-get
+  description: The photos, videos, and posts in which this application has been tagged.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: http:///business
   baseURL: https://graph.facebook.com//
-  tags: Tags
+  tags: Social, My API Stack, Indie EdTech Data Jam, Issues Example, Facebook Stack,
+    Stack Network, Stack, internet, Technology, Mobile, API Provider, Social, Social
+    Networks, Profiles, Payments, General Data, Relative Data, Pedestal, Historical
+    Data API, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/facebook/applicationtagged-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/facebook/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/facebook/applicationtagged-get-openapi.md
+- name: Facebook - Get Page Tagged
+  x-api-slug: pagetagged-get
+  description: The photos, videos, and posts in which this page has been tagged
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https://graph.facebook.com//
+  tags: Social, My API Stack, Indie EdTech Data Jam, Issues Example, Facebook Stack,
+    Stack Network, Stack, internet, Technology, Mobile, API Provider, Social, Social
+    Networks, Profiles, Payments, General Data, Relative Data, Pedestal, Historical
+    Data API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/facebook/pagetagged-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/facebook/pagetagged-get-openapi.md
+- name: Facebook - Get User Tagged
+  x-api-slug: usertagged-get
+  description: Posts the user is tagged in
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https://graph.facebook.com//
+  tags: Social, My API Stack, Indie EdTech Data Jam, Issues Example, Facebook Stack,
+    Stack Network, Stack, internet, Technology, Mobile, API Provider, Social, Social
+    Networks, Profiles, Payments, General Data, Relative Data, Pedestal, Historical
+    Data API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/facebook/usertagged-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/facebook/usertagged-get-openapi.md
+- name: Facebook - Get Application Tagged
+  x-api-slug: applicationtagged-get
+  description: The photos, videos, and posts in which this application has been tagged.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https://graph.facebook.com//
+  tags: Social, My API Stack, Indie EdTech Data Jam, Issues Example, Facebook Stack,
+    Stack Network, Stack, internet, Technology, Mobile, API Provider, Social, Social
+    Networks, Profiles, Payments, General Data, Relative Data, Pedestal, Historical
+    Data API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/facebook/applicationtagged-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/facebook/applicationtagged-get-openapi.md
+- name: Facebook - Get Page Tagged
+  x-api-slug: pagetagged-get
+  description: The photos, videos, and posts in which this page has been tagged
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https://graph.facebook.com//
+  tags: Social, My API Stack, Indie EdTech Data Jam, Issues Example, Facebook Stack,
+    Stack Network, Stack, internet, Technology, Mobile, API Provider, Social, Social
+    Networks, Profiles, Payments, General Data, Relative Data, Pedestal, Historical
+    Data API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/facebook/pagetagged-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/facebook/pagetagged-get-openapi.md
+- name: Facebook - Get User Tagged
+  x-api-slug: usertagged-get
+  description: Posts the user is tagged in
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https://graph.facebook.com//
+  tags: Social, My API Stack, Indie EdTech Data Jam, Issues Example, Facebook Stack,
+    Stack Network, Stack, internet, Technology, Mobile, API Provider, Social, Social
+    Networks, Profiles, Payments, General Data, Relative Data, Pedestal, Historical
+    Data API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/facebook/usertagged-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/facebook/usertagged-get-openapi.md
+- name: Facebook - Get User Tagged
+  x-api-slug: usertagged-get
+  description: Posts the user is tagged in
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https://graph.facebook.com//
+  tags: Social, My API Stack, Indie EdTech Data Jam, Issues Example, Facebook Stack,
+    Stack Network, Stack, internet, Technology, Mobile, API Provider, Social, Social
+    Networks, Profiles, Payments, General Data, Relative Data, Pedestal, Historical
+    Data API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/facebook/usertagged-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/facebook/usertagged-get-openapi.md
+- name: Facebook - Get Page Tagged
+  x-api-slug: pagetagged-get
+  description: The photos, videos, and posts in which this page has been tagged
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https://graph.facebook.com//
+  tags: Social, My API Stack, Indie EdTech Data Jam, Issues Example, Facebook Stack,
+    Stack Network, Stack, internet, Technology, Mobile, API Provider, Social, Social
+    Networks, Profiles, Payments, General Data, Relative Data, Pedestal, Historical
+    Data API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/facebook/pagetagged-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/facebook/pagetagged-get-openapi.md
+- name: Facebook - Get Application Tagged
+  x-api-slug: applicationtagged-get
+  description: The photos, videos, and posts in which this application has been tagged.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https://graph.facebook.com//
+  tags: Social, My API Stack, Indie EdTech Data Jam, Issues Example, Facebook Stack,
+    Stack Network, Stack, internet, Technology, Mobile, API Provider, Social, Social
+    Networks, Profiles, Payments, General Data, Relative Data, Pedestal, Historical
+    Data API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/facebook/applicationtagged-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/facebook/applicationtagged-get-openapi.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
+- type: x-api-gallery
+  url: http://expedia.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://facebook.stack.network
 - type: x-apigee-console
   url: https://api.apigee.com/v1/consoles/facebook/apidescription?format=internal&ver=1386216190000
 - type: x-application-gallery

@@ -34,6 +34,26 @@ paths:
           description: OK
       tags:
       - Tags
+  /?Action=RemoveTags:
+    get:
+      summary: Remove Tags
+      description: Removes tags from an Amazon EMR resource.
+      operationId: removeTags
+      x-api-path-slug: actionremovetags-get
+      parameters:
+      - in: query
+        name: ResourceId
+        description: The Amazon EMR resource identifier from which tags will be removed
+        type: string
+      - in: query
+        name: TagKeys
+        description: A list of tag keys to remove from a resource
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Tags
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

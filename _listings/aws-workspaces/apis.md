@@ -15,61 +15,82 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Tags
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-workspaces/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS WorkSpaces Service API Create Tags
-  x-api-slug: aws-workspaces-service-api
+- name: AWS WorkSpaces Service API - Create Tags
+  x-api-slug: actioncreatetags-get
   description: Creates tags for a WorkSpace.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkSpaces.png
   humanURL: https://aws.amazon.com/workspaces/
-  baseURL: ://///?Action=CreateTags
-  tags: Tags
+  baseURL: :///
+  tags: Amazon Web Services, Desktops, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-workspaces/actioncreatetags-get-openapi.md
-- name: AWS WorkSpaces Service API Delete Tags
-  x-api-slug: aws-workspaces-service-api
+- name: AWS WorkSpaces Service API - Delete Tags
+  x-api-slug: actiondeletetags-get
   description: Deletes tags from a WorkSpace.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkSpaces.png
   humanURL: https://aws.amazon.com/workspaces/
-  baseURL: ://///?Action=DeleteTags
-  tags: Tags
+  baseURL: :///
+  tags: Amazon Web Services, Desktops, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-workspaces/actiondeletetags-get-openapi.md
-- name: AWS WorkSpaces Service API Describe Tags
-  x-api-slug: aws-workspaces-service-api
+- name: AWS WorkSpaces Service API - Describe Tags
+  x-api-slug: actiondescribetags-get
   description: Describes tags for a WorkSpace.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkSpaces.png
   humanURL: https://aws.amazon.com/workspaces/
-  baseURL: ://///?Action=DescribeTags
-  tags: Tags
+  baseURL: :///
+  tags: Amazon Web Services, Desktops, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-workspaces/actiondescribetags-get-openapi.md
-- name: AWS WorkSpaces Service API
-  x-api-slug: aws-workspaces-service-api
-  description: Amazon WorkSpaces is a fully managed, secure desktop computing service
-    which runs on the AWS cloud. Amazon WorkSpaces allows you to easily provision
-    cloud-based virtual desktops and provide your users access to the documents, applications,
-    and resources they need from any supported device, including Windows and Mac computers,
-    Chromebooks, iPads, Fire tablets, Android tablets, and Chrome and Firefox web
-    browsers. With just a few clicks in the AWS Management Console, you can deploy
-    high-quality cloud desktops for any number of users. With Amazon WorkSpaces, you
-    pay either monthly or hourly just for the Amazon WorkSpaces you launch, which
-    helps you save money when compared to traditional desktops and on-premises Virtual
-    Desktop Infrastructure (VDI) solutions.
+- name: AWS WorkSpaces Service API - Create Tags
+  x-api-slug: actioncreatetags-get
+  description: Creates tags for a WorkSpace.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkSpaces.png
   humanURL: https://aws.amazon.com/workspaces/
   baseURL: :///
-  tags: Tags
+  tags: Amazon Web Services, Desktops, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-workspaces/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-workspaces/actioncreatetags-get-openapi.md
+- name: AWS WorkSpaces Service API - Delete Tags
+  x-api-slug: actiondeletetags-get
+  description: Deletes tags from a WorkSpace.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkSpaces.png
+  humanURL: https://aws.amazon.com/workspaces/
+  baseURL: :///
+  tags: Amazon Web Services, Desktops, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-workspaces/actiondeletetags-get-openapi.md
+- name: AWS WorkSpaces Service API - Describe Tags
+  x-api-slug: actiondescribetags-get
+  description: Describes tags for a WorkSpace.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkSpaces.png
+  humanURL: https://aws.amazon.com/workspaces/
+  baseURL: :///
+  tags: Amazon Web Services, Desktops, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-workspaces/actiondescribetags-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.workdocs.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.workspaces.stack.network
 - type: x-documentation
   url: http://docs.aws.amazon.com/workspaces/latest/api/api-reference.html
 - type: x-faq

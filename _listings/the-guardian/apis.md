@@ -11,38 +11,29 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Tags
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/the-guardian/apis.md
 specificationVersion: "0.14"
 apis:
-- name: The Guardian Tags
-  x-api-slug: the-guardian
+- name: The Guardian - Tags
+  x-api-slug: tags-get
   description: Retrieves the tags used across the Guardian news platform.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/the-guardian-logo.png
   humanURL: http://www.guardian.co.uk/open-platform
-  baseURL: https://content.guardianapis.com///tags
-  tags: Tags
+  baseURL: https://content.guardianapis.com/
+  tags: Media, Data, API United Kingdom, News, General Data, Relative Data, Service
+    API, Pedestal, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/the-guardian/tags-get-openapi.md
-- name: The Guardian
-  x-api-slug: the-guardian
-  description: The Content API is a public service for accessing all the content the
-    Guardian creates and the collections we have of that content (tags and sections).
-    There are over one and a half million items available published as far back as
-    1999. This overview will give you some idea of what data is available, how to
-    find what you need, and what you will see when you make a request to us.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/the-guardian-logo.png
-  humanURL: http://www.guardian.co.uk/open-platform
-  baseURL: https://content.guardianapis.com/
-  tags: Tags
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/the-guardian/openapi.md
 x-common:
 - type: x-access-tiers
   url: http://open-platform.theguardian.com/access/
+- type: x-api-gallery
+  url: http://telapi.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://the.guardian.stack.network
 - type: x-base
   url: http://content.guardianapis.com/
 - type: x-blog

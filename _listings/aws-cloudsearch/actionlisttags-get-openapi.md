@@ -80,6 +80,34 @@ paths:
           description: OK
       tags:
       - Tags
+  /?Action=RemoveTags:
+    get:
+      summary: Remove Tags
+      description: |-
+        Removes the specified resource tags
+         from an Amazon ES domain.
+      operationId: RemoveTags
+      x-api-path-slug: actionremovetags-get
+      parameters:
+      - in: query
+        name: Base
+        description: An error occurred while                  processing the request
+        type: string
+      - in: query
+        name: InternalException
+        description: The                  processing of the request failed because
+          of an internal service error
+        type: string
+      - in: query
+        name: ValidationException
+        description: The                  request contains invalid input or is missing
+          required input
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Tags
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

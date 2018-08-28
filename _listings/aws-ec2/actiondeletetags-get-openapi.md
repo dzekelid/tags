@@ -69,6 +69,31 @@ paths:
           description: OK
       tags:
       - Tags
+  /?Action=DescribeTags:
+    get:
+      summary: Describe Tags
+      description: Describes one or more of the tags for your EC2 resources.
+      operationId: describetags
+      x-api-path-slug: actiondescribetags-get
+      parameters:
+      - in: query
+        name: ConversionTaskId
+        description: The ID of the conversion task
+        type: string
+      - in: query
+        name: DryRun
+        description: Checks whether you have the required permissions for the action,
+          without actually making the request,      and provides an error response
+        type: string
+      - in: query
+        name: ReasonMessage
+        description: The reason for canceling the conversion task
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Tags
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

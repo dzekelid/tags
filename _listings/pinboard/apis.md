@@ -9,60 +9,54 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/240-pinboa
 x-kinRank: "9"
 x-alexaRank: "45688"
 tags: Tags
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/pinboard/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Pinboard Get Tags
-  x-api-slug: pinboard
+- name: Pinboard - Get Tags
+  x-api-slug: tagsget-get
   description: Returns a full list of the user's tags along with the number of times
     they were used.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/240-pinboard.jpg
   humanURL: http://pinboard.in
-  baseURL: https://api.pinboard.in//v1//tags/get
-  tags: Tags
+  baseURL: https://api.pinboard.in//v1
+  tags: Bookmarks, Links, My API Stack, Indie EdTech Data Jam, Stack Network, Stack,
+    Technology, internet, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/pinboard/tagsget-get-openapi.md
-- name: Pinboard Deletes Tag
-  x-api-slug: pinboard
+- name: Pinboard - Deletes Tag
+  x-api-slug: tagsdelete-get
   description: Delete an existing tag.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/240-pinboard.jpg
   humanURL: http://pinboard.in
-  baseURL: https://api.pinboard.in//v1//tags/delete
-  tags: Tags
+  baseURL: https://api.pinboard.in//v1
+  tags: Bookmarks, Links, My API Stack, Indie EdTech Data Jam, Stack Network, Stack,
+    Technology, internet, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/pinboard/tagsdelete-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/pinboard/tagsdelete-get-openapi.md
-- name: Pinboard Rename Tags
-  x-api-slug: pinboard
+- name: Pinboard - Rename Tags
+  x-api-slug: tagsrename-get
   description: Rename an tag, or fold it in to an existing tag.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/240-pinboard.jpg
   humanURL: http://pinboard.in
-  baseURL: https://api.pinboard.in//v1//tags/rename
-  tags: Tags
+  baseURL: https://api.pinboard.in//v1
+  tags: Bookmarks, Links, My API Stack, Indie EdTech Data Jam, Stack Network, Stack,
+    Technology, internet, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/pinboard/tagsrename-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/pinboard/tagsrename-get-openapi.md
-- name: Pinboard
-  x-api-slug: pinboard
-  description: Pinboard is a bookmarking website for introverted people in a hurry.
-    The focus of the site is less on socializing, and more on speed and utility. Pinboard
-    tries to offer useful features without getting in your way. My highest priority
-    is keeping your data safe over the long term.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/240-pinboard.jpg
-  humanURL: http://pinboard.in
-  baseURL: https://api.pinboard.in//v1
-  tags: Tags
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/pinboard/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://payrun.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://pinboard.stack.network
 - type: x-base
   url: https://api.pinboard.in
 - type: x-blog

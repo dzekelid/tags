@@ -11,57 +11,82 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Tags
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-rds/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Amazon RDS API Add Tags To Resource
-  x-api-slug: amazon-rds-api
+- name: AWS RDS API - Add Tags To Resource
+  x-api-slug: actionaddtagstoresource-get
   description: Adds metadata tags to an Amazon RDS resource.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
   humanURL: https://aws.amazon.com/rds/
-  baseURL: ://///?Action=AddTagsToResource
-  tags: Tags
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-rds/actionaddtagstoresource-get-openapi.md
-- name: Amazon RDS API List Tags For Resource
-  x-api-slug: amazon-rds-api
+- name: AWS RDS API - List Tags For Resource
+  x-api-slug: actionlisttagsforresource-get
   description: Lists all tags on an Amazon RDS resource.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
   humanURL: https://aws.amazon.com/rds/
-  baseURL: ://///?Action=ListTagsForResource
-  tags: Tags
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-rds/actionlisttagsforresource-get-openapi.md
-- name: Amazon RDS API Remove Tags From Resource
-  x-api-slug: amazon-rds-api
+- name: AWS RDS API - Remove Tags From Resource
+  x-api-slug: actionremovetagsfromresource-get
   description: Removes metadata tags from an Amazon RDS resource.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
   humanURL: https://aws.amazon.com/rds/
-  baseURL: ://///?Action=RemoveTagsFromResource
-  tags: Tags
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-rds/actionremovetagsfromresource-get-openapi.md
-- name: Amazon RDS API
-  x-api-slug: amazon-rds-api
-  description: Amazon Relational Database Service (Amazon RDS) makes it easy to set
-    up, operate, and scale arelational databasein the cloud. It provides cost-efficient
-    and resizable capacity while managing time-consuming database administration tasks,
-    freeing you up to focus on your applications and business. Amazon RDS provides
-    you six familiar database engines to choose from, includingAmazon Aurora,PostgreSQL,MySQL,MariaDB,Oracle,
-    andMicrosoft SQL Server.
+- name: AWS RDS API - Add Tags To Resource
+  x-api-slug: actionaddtagstoresource-get
+  description: Adds metadata tags to an Amazon RDS resource.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
   humanURL: https://aws.amazon.com/rds/
   baseURL: :///
-  tags: Tags
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-rds/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-rds/actionaddtagstoresource-get-openapi.md
+- name: AWS RDS API - List Tags For Resource
+  x-api-slug: actionlisttagsforresource-get
+  description: Lists all tags on an Amazon RDS resource.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-rds/actionlisttagsforresource-get-openapi.md
+- name: AWS RDS API - Remove Tags From Resource
+  x-api-slug: actionremovetagsfromresource-get
+  description: Removes metadata tags from an Amazon RDS resource.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tags/master/_listings/aws-rds/actionremovetagsfromresource-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.polly.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.rds.stack.network
 - type: x-articles
   url: https://aws.amazon.com/articles/Amazon-RDS
 - type: x-blog

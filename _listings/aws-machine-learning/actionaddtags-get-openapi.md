@@ -38,6 +38,52 @@ paths:
       tags:
       - Machine Learning
       - Tags
+  /?Action=DeleteTags:
+    get:
+      summary: Delete Tags
+      description: Deletes the specified tags associated with an ML object.
+      operationId: deleteTags
+      x-api-path-slug: actiondeletetags-get
+      parameters:
+      - in: query
+        name: ResourceId
+        description: The ID of the tagged ML object
+        type: string
+      - in: query
+        name: ResourceType
+        description: The type of the tagged ML object
+        type: string
+      - in: query
+        name: TagKeys
+        description: One or more tags to delete
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Machine Learning
+      - Tags
+  /?Action=DescribeTags:
+    get:
+      summary: Describe Tags
+      description: Describes one or more of the tags for your Amazon ML object.
+      operationId: describeTags
+      x-api-path-slug: actiondescribetags-get
+      parameters:
+      - in: query
+        name: ResourceId
+        description: The ID of the ML object
+        type: string
+      - in: query
+        name: ResourceType
+        description: The type of the ML object
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Machine Learning
+      - Real Time
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
